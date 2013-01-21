@@ -1,0 +1,29 @@
+.jumbotron {
+  background-image: -webkit-linear-gradient(top, #226, #226 90%, #113);
+  color: white;
+  padding: 20px 0;
+  position: relative;
+}
+.jumbotron::after {
+  background: url(http://twitter.github.com/bootstrap/assets/img/bs-docs-masthead-pattern.png) repeat center center;
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.jumbotron h1 {
+  font-size: 60px;
+}
+.jumbotron sub {
+  font-size: 50%;
+}
+.jumbotron p {
+  font-size: 24px;
+  margin: 30px 0 20px;
+}
+#map {
+  height: 500px;
+  width: 100%;
+}
