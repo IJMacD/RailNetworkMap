@@ -8,10 +8,46 @@ $(function(){
         gridX = 20,
         gridY = 20,
         canvasWidth = canvas[0].width = canvas.width(),
-        canvasHeight = canvas[0].height = canvas.height();
+        canvasHeight = canvas[0].height = canvas.height(),
+        currentOutline,
+        animating = false,
+        lastX, lastY,
+        mouseDown = false;
+    ctx.fillStyle = "#fff";
     ctx.strokeStyle = "#ccc";
-    drawGrid();
-    $.get('kent.json',drawPath);
+    canvas.on('mousedown', function(event){
+        mouseDown = true;
+        lastX = event.offsetX;
+        lastY = event.offsetY;
+        animating = true;
+        render();
+    });
+    canvas.on('mousemove', function(event){
+        if(mouseDown){
+            var currX = event.offsetX,
+                currY = event.offsetY,
+                dLon = (lastX - currX)*(gridLon/gridX),
+                dLat = -(lastY - currY)*(gridLat/gridY);
+            midLon += dLon;
+            midLat += dLat;
+            lastX = currX;
+            lastY = currY;
+        }
+    });
+    canvas.on('mouseup mouseout', function(event){
+        mouseDown = false;
+        animating = false;
+    });
+    $.get('kent.json',function(data){currentOutline = data;render();});
+    render();
+    function render(t){
+        ctx.fillRect(0,0,canvasWidth,canvasHeight);
+        drawGrid();
+        if(currentOutline)
+            drawPath(currentOutline);
+        if(animating)
+            requestAnimationFrame(render);
+    }
     function drawGrid(){
         var midX = canvasWidth / 2,
             midY = canvasHeight / 2,
@@ -56,6 +92,12 @@ $(function(){
             midY = canvasHeight / 2;
         p.x = midX + (lon - midLon)*(gridX / gridLon);
         p.y = canvasHeight - (midY + (lat - midLat)*(gridY / gridLat));
+        return p;
+    }
+    function xYToLonLat(x,y,p){
+        p = (typeof p == "undefined") ? {} : p;
+        p.lon = midLon + (x - midX)*(gridLon/gridX);
+        p.lat = midLat + (canvasHeight - (y - midY))*(gridLat/gridY);
         return p;
     }
 });
