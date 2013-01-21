@@ -11,8 +11,10 @@ $(function(){
         canvasHeight = canvas[0].height = canvas.height(),
         currentOutline,
         animating = false,
-        lastX, lastY,
-        mouseDown = false;
+        lastX, lastY, startX, startY,
+        mouseDown = false,
+        tiles = {},
+        images = {};
     ctx.fillStyle = "#fff";
     ctx.strokeStyle = "#ccc";
     canvas.on('mousedown', function(event){
@@ -24,8 +26,8 @@ $(function(){
     });
     canvas.on('mousemove', function(event){
         if(mouseDown){
-            var currX = event.offsetX,
-                currY = event.offsetY,
+            var currX = startX = event.offsetX,
+                currY = startY = event.offsetY,
                 dLon = (lastX - currX)*(gridLon/gridX),
                 dLat = -(lastY - currY)*(gridLat/gridY);
             midLon += dLon;
@@ -34,19 +36,76 @@ $(function(){
             lastY = currY;
         }
     });
-    canvas.on('mouseup mouseout', function(event){
+    canvas.on('mouseup', function(event){
+        mouseDown = false;
+        animating = false;
+        if(event.which == 1){
+            if(startX != event.offsetX || startY != event.offsetY){
+                var p = xYToLonLatGrid(event.offsetX,event.offsetY);
+                setImage(p.lon.toFixed(3),p.lat.toFixed(4),'BHF');
+            }
+        }else if(event.which == 3){
+            if(startX != event.offsetX || startY != event.offsetY){
+                var p = xYToLonLatGrid(event.offsetX,event.offsetY);
+                setImage(p.lon.toFixed(3),p.lat.toFixed(4),null);
+            }
+        }
+    });
+    canvas.on('mouseout', function(event){
         mouseDown = false;
         animating = false;
     });
+    canvas.on('contextmenu', false);
     $.get('kent.json',function(data){currentOutline = data;render();});
     render();
+    function setImage(x,y,img){
+        if(!tiles[x])
+            tiles[x] = {};
+        tiles[x][y] = img;
+        if(img && !images[img])
+            loadImage(img);
+    }
+    function loadImage(img){
+        var image = new Image();
+        image.onload = function(){
+            render();
+        }
+        images[img] = image;
+        image.src = 'http://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BSicon_'+img+'.svg/20px-BSicon_'+img+'.svg.png'
+    }
     function render(t){
         ctx.fillRect(0,0,canvasWidth,canvasHeight);
         drawGrid();
         if(currentOutline)
             drawPath(currentOutline);
+        drawTiles();
         if(animating)
             requestAnimationFrame(render);
+    }
+    function drawTiles(){
+        var midX = canvasWidth / 2,
+            midY = canvasHeight / 2,
+            gridLonOver = midLon % gridLon,
+            gridLatOver = midLat % gridLat,
+            gridXCount = Math.floor(canvasWidth / gridX),
+            gridYCount = Math.floor(canvasHeight / gridY),
+            minLon = midLon - gridLonOver - (gridXCount * gridLon * 0.5),
+            minLat = midLat - gridLatOver - (gridYCount * gridLat * 0.5),
+            maxLon = minLon + (gridXCount * gridLon),
+            maxLat = minLat + (gridYCount * gridLat),
+            i,l,j,m,p;
+        for (x in tiles) {
+            if(x > minLon - gridLon && x < maxLon + gridLon){
+                for(y in tiles[x]){
+                    if(y > minLat - gridLat && y < maxLat + gridLat){
+                        if(images[tiles[x][y]]){
+                            p = lonLatToXY(x,y);
+                            ctx.drawImage(images[tiles[x][y]],p.x,p.y-gridY);
+                        }
+                    }
+                }
+            }
+        };
     }
     function drawGrid(){
         var midX = canvasWidth / 2,
@@ -69,8 +128,8 @@ $(function(){
         };
         for (var i = minY; i < canvasHeight; i+=gridY) {
             ctx.beginPath();
-            ctx.moveTo(0,i);
-            ctx.lineTo(canvasWidth,i);
+            ctx.moveTo(0,canvasHeight-i);
+            ctx.lineTo(canvasWidth,canvasHeight-i);
             ctx.stroke();
         };
     }
@@ -91,13 +150,23 @@ $(function(){
         var midX = canvasWidth / 2,
             midY = canvasHeight / 2;
         p.x = midX + (lon - midLon)*(gridX / gridLon);
-        p.y = canvasHeight - (midY + (lat - midLat)*(gridY / gridLat));
+        p.y = canvasHeight - (midY + (lat - midLat)*(gridY / gridLat))+gridY/2;
         return p;
     }
     function xYToLonLat(x,y,p){
         p = (typeof p == "undefined") ? {} : p;
+        var midX = canvasWidth / 2,
+            midY = canvasHeight / 2;
         p.lon = midLon + (x - midX)*(gridLon/gridX);
-        p.lat = midLat + (canvasHeight - (y - midY))*(gridLat/gridY);
+        p.lat = midLat + (canvasHeight - y - midY + gridY/2)*(gridLat/gridY);
+        return p;
+    }
+    function xYToLonLatGrid(x,y,p){
+        p = xYToLonLat(x,y,p);
+        var gridLonOver = p.lon % gridLon,
+            gridLatOver = p.lat % gridLat;
+        p.lon -= gridLonOver;
+        p.lat -= gridLatOver;
         return p;
     }
 });
