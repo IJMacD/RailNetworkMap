@@ -1,16 +1,17 @@
 $(function(){
     var canvas = $('#map'),
         ctx = canvas[0].getContext('2d'),
-        midLon = 1.3429988,
-        midLat = 51.1218206,
-        gridLon = 0.0001,
-        gridLat = 0.001,
+        midLon = 1.342,
+        midLat = 51.2,
+        gridLon = 0.025,
+        gridLat = 0.0175,
         gridX = 20,
         gridY = 20,
         canvasWidth = canvas[0].width = canvas.width(),
         canvasHeight = canvas[0].height = canvas.height();
     ctx.strokeStyle = "#ccc";
     drawGrid();
+    $.get('kent.json',drawPath);
     function drawGrid(){
         var midX = canvasWidth / 2,
             midY = canvasHeight / 2,
@@ -36,5 +37,25 @@ $(function(){
             ctx.lineTo(canvasWidth,i);
             ctx.stroke();
         };
+    }
+    function drawPath(data){
+        var i = 2,
+            l = data.length,
+            p;
+        ctx.beginPath();
+        ctx.moveTo(data[0],data[1]);
+        for (; i < l; i+=2) {
+            p = lonLatToXY(data[i],data[i+1],p)
+            ctx.lineTo(p.x,p.y);
+        };
+        ctx.stroke();
+    }
+    function lonLatToXY(lon,lat,p){
+        p = (typeof p == "undefined") ? {} : p;
+        var midX = canvasWidth / 2,
+            midY = canvasHeight / 2;
+        p.x = midX + (lon - midLon)*(gridX / gridLon);
+        p.y = canvasHeight - (midY + (lat - midLat)*(gridY / gridLat));
+        return p;
     }
 });
