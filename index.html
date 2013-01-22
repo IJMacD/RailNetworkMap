@@ -12,10 +12,17 @@
       <div class="container">
         <h1>Rail<span>Network</span>Map</h1>
         <p class="lead">See the entire rail network represented as a simple grid</p>
-      <div>
+      </div>
     </header>
-    <div class="container">
-      <canvas id="map"></canvas>
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span10">
+         <canvas id="map"></canvas>
+        </div>
+        <div class="span2">
+          <ul id="key"></ul>
+        </div>
+      </div>
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="//blueimp.github.com/cdn/js/bootstrap.min.js"></script>

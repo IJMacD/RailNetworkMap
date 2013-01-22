@@ -3,8 +3,8 @@ $(function(){
         ctx = canvas[0].getContext('2d'),
         midLon = 1.342,
         midLat = 51.2,
-        gridLon = 0.025,
-        gridLat = 0.0175,
+        gridLon = 0.01,
+        gridLat = 0.007,
         gridX = 20,
         gridY = 20,
         canvasWidth = canvas[0].width = canvas.width(),
@@ -14,7 +14,8 @@ $(function(){
         lastX, lastY, startX, startY,
         mouseDown = false,
         tiles = {},
-        images = {};
+        images = {},
+        selectedSymbol = 0;
     ctx.fillStyle = "#fff";
     ctx.strokeStyle = "#ccc";
     canvas.on('mousedown', function(event){
@@ -42,12 +43,12 @@ $(function(){
         if(event.which == 1){
             if(startX != event.offsetX || startY != event.offsetY){
                 var p = xYToLonLatGrid(event.offsetX,event.offsetY);
-                setImage(p.lon.toFixed(3),p.lat.toFixed(4),'BHF');
+                setImage(p.lon.toFixed(3),p.lat.toFixed(4),selectedSymbol);
             }
         }else if(event.which == 3){
             if(startX != event.offsetX || startY != event.offsetY){
                 var p = xYToLonLatGrid(event.offsetX,event.offsetY);
-                setImage(p.lon.toFixed(3),p.lat.toFixed(4),null);
+                setImage(p.lon.toFixed(3),p.lat.toFixed(4),-1);
             }
         }
     });
@@ -57,21 +58,36 @@ $(function(){
     });
     canvas.on('contextmenu', false);
     $.get('kent.json',function(data){currentOutline = data;render();});
+    $.get('images.json',function(data){
+        var key = $('#key');
+        $.each(data,function(i,item){
+            var img = loadImage(i,item),
+                li = $('<li>').append(img);
+            li.click(function(){
+                selectedSymbol = i;
+                highlightKey();
+            });
+            key.append(li);
+        });
+        render();
+        highlightKey();
+    });
     render();
     function setImage(x,y,img){
         if(!tiles[x])
             tiles[x] = {};
         tiles[x][y] = img;
-        if(img && !images[img])
-            loadImage(img);
     }
-    function loadImage(img){
+    function loadImage(id,src){
         var image = new Image();
-        image.onload = function(){
-            render();
-        }
-        images[img] = image;
-        image.src = 'http://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BSicon_'+img+'.svg/20px-BSicon_'+img+'.svg.png'
+        image.src = src;
+        images[id] = image;
+        return image;
+    }
+    function highlightKey(){
+        $('#key li').removeClass('selected')
+            .slice(selectedSymbol,selectedSymbol+1)
+            .addClass('selected');
     }
     function render(t){
         ctx.fillRect(0,0,canvasWidth,canvasHeight);
