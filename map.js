@@ -71,16 +71,20 @@ $(function(){
     });
     $.get('kent.json',function(data){currentOutline = data;render();});
     $.get('images.json',function(data){
-        var key = $('#key');
-        $.each(data,function(i,item){
-            var img = loadImage(i,item),
-                li = $('<li>').append(img);
-            li.click(function(){
-                selectedSymbol = i;
-                highlightKey();
-            });
+        var key = $('#key'),
+            id, img, li;
+        for(id in data){
+            img = loadImage(id,data[id]);
+            li = $('<li>').append(img).data('symbol', id);
+            (function(){
+                var _id = id;
+                li.click(function(){
+                    selectedSymbol = _id;
+                    highlightKey();
+                });
+            })();
             key.append(li);
-        });
+        }
         render();
         highlightKey();
     });
@@ -97,9 +101,11 @@ $(function(){
         return image;
     }
     function highlightKey(){
-        $('#key li').removeClass('selected')
-            .slice(selectedSymbol,selectedSymbol+1)
-            .addClass('selected');
+        $('#key li').removeClass('selected').each(function(){
+            if($(this).data('symbol') == selectedSymbol){
+                $(this).addClass('selected');
+            }
+        });
     }
     function render(t){
         ctx.fillRect(0,0,canvasWidth,canvasHeight);
