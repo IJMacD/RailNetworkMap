@@ -43,12 +43,12 @@ $(function(){
         if(event.which == 1){
             if(startX != event.offsetX || startY != event.offsetY){
                 var p = xYToLonLatGrid(event.offsetX,event.offsetY);
-                setImage(p.lon.toFixed(3),p.lat.toFixed(4),selectedSymbol);
+                setImage(p.lon.toFixed(2),p.lat.toFixed(3),selectedSymbol);
             }
         }else if(event.which == 3){
             if(startX != event.offsetX || startY != event.offsetY){
                 var p = xYToLonLatGrid(event.offsetX,event.offsetY);
-                setImage(p.lon.toFixed(3),p.lat.toFixed(4),-1);
+                setImage(p.lon.toFixed(2),p.lat.toFixed(3),-1);
             }
         }
     });
@@ -57,6 +57,18 @@ $(function(){
         animating = false;
     });
     canvas.on('contextmenu', false);
+    $('#manual-btn').click(function(){
+        var p = snapLonLatToGrid(midLon,midLat);
+        $('#lon').val(p.lon.toFixed(2));
+        $('#lat').val(p.lat.toFixed(3));
+        $('#manual-modal').modal('show');
+    });
+    $('#manual-add-btn').click(function(){
+        var p = snapLonLatToGrid($('#lon').val(),$('#lat').val());
+        setImage(p.lon.toFixed(2), p.lat.toFixed(3), selectedSymbol);
+        $('#manual-modal').modal('hide');
+        render();
+    });
     $.get('kent.json',function(data){currentOutline = data;render();});
     $.get('images.json',function(data){
         var key = $('#key');
@@ -183,6 +195,12 @@ $(function(){
             gridLatOver = p.lat % gridLat;
         p.lon -= gridLonOver;
         p.lat -= gridLatOver;
+        return p;
+    }
+    function snapLonLatToGrid(lon,lat,p){
+        p = (typeof p == "undefined") ? {} : p;
+        p.lon = lon - (lon % gridLon);
+        p.lat = lat - (lat % gridLat);
         return p;
     }
 });
