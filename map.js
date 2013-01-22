@@ -15,9 +15,26 @@ $(function(){
         mouseDown = false,
         tiles = {},
         images = {},
-        selectedSymbol = 0;
+        selectedSymbol = 0,
+        db, dbr;
     ctx.fillStyle = "#fff";
     ctx.strokeStyle = "#ccc";
+    dbr = indexedDB.open("map");
+    dbr.onupgradeneeded = function(event){
+        var db = event.target.result,
+            objStore = db.createObjectStore("tiles");
+    }
+    dbr.onsuccess = function(event){
+        db = dbr.result;
+        db.transaction("tiles").objectStore("tiles").get("tiles").onsuccess = function(event) {
+          tiles = event.target.result;
+        };
+        db.onerror = function(event) {
+          // Generic error handler for all errors targeted at this database's
+          // requests!
+          alert("Database error: " + event.target.errorCode);
+        };
+    }
     canvas.on('mousedown', function(event){
         mouseDown = true;
         lastX = event.offsetX;
@@ -68,6 +85,12 @@ $(function(){
         setImage(p.lon.toFixed(2), p.lat.toFixed(3), selectedSymbol);
         $('#manual-modal').modal('hide');
         render();
+    });
+    $('#save-btn').click(function(){
+        var transaction = db.transaction(["tiles"], "readwrite"),
+            objStore = transaction.objectStore("tiles");
+        objStore.put(tiles,"tiles");
+        transaction.oncomplete = function(event){$('#status').text("Saved at "+(new Date()));};
     });
     $.get('kent.json',function(data){currentOutline = data;render();});
     $.get('images.json',function(data){
