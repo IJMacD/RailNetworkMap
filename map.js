@@ -15,7 +15,7 @@ $(function(){
         mouseDown = false,
         tiles = {},
         images = {},
-        selectedSymbol = 0,
+        selectedSymbol,
         db, dbr;
     ctx.fillStyle = "#fff";
     ctx.strokeStyle = "#ccc";
@@ -29,7 +29,8 @@ $(function(){
     dbr.onsuccess = function(event){
         db = dbr.result;
         db.transaction("tiles").objectStore("tiles").get("tiles").onsuccess = function(event) {
-          tiles = event.target.result;
+            if(event.target.result)
+                tiles = event.target.result;
         };
         db.onerror = function(event) {
           // Generic error handler for all errors targeted at this database's
@@ -99,6 +100,9 @@ $(function(){
         var key = $('#key'),
             id, img, li;
         for(id in data){
+            if(!selectedSymbol){
+                selectedSymbol = id;
+            }
             img = loadImage(id,data[id]);
             li = $('<li>').append(img).data('symbol', id);
             (function(){
