@@ -15,7 +15,7 @@ $(function(){
         mouseDown = false,
         tiles = {},
         images = {},
-        selectedSymbol = 0,
+        selectedSymbol,
         db, dbr;
     ctx.fillStyle = "#fff";
     ctx.strokeStyle = "#ccc";
@@ -100,6 +100,9 @@ $(function(){
         var key = $('#key'),
             id, img, li;
         for(id in data){
+            if(!selectedSymbol){
+                selectedSymbol = id;
+            }
             img = loadImage(id,data[id]);
             li = $('<li>').append(img).data('symbol', id);
             (function(){
