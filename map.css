@@ -28,7 +28,9 @@
   width: 100%;
 }
 #key {
+  height: 400px;
   margin: 0;
+  overflow-y: scroll;
 }
 #key li {
   border: 1px solid transparent;
