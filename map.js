@@ -19,6 +19,8 @@ $(function(){
         db, dbr;
     ctx.fillStyle = "#fff";
     ctx.strokeStyle = "#ccc";
+    canvas.width(canvasWidth+"px");
+    canvas.height(canvasHeight+"px");
     dbr = indexedDB.open("map");
     dbr.onupgradeneeded = function(event){
         var db = event.target.result,
