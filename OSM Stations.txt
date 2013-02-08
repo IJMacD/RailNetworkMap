@@ -1,0 +1,5 @@
+TODO: Fetch Stations from Open Street Map and import programatically
+
+API URLs: 10.0 square degrees max
+	http://jxapi.openstreetmap.org/xapi/api/0.6/node[railway=station][bbox=-3,50,2,52]
+	http://jxapi.openstreetmap.org/xapi/api/0.6/node[railway=station][bbox=-3,52,2,54]

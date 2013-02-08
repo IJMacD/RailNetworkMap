@@ -1,0 +1,2618 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="Osmosis no-version-specified" xapi:planetDate="2013-01-21T15:07:01Z" xmlns:xapi="http://jxapi.openstreetmap.org/">
+  <node id="105105" version="4" timestamp="2012-05-04T16:14:53Z" uid="452299" user="nsmith" changeset="11499326" lat="52.0531129" lon="-0.0274814">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Royston"/>
+    <tag k="naptan:AtcoCode" v="9100ROYSTON"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="106000" version="8" timestamp="2012-11-24T21:54:43Z" uid="413286" user="Chris Northwood" changeset="14019618" lat="52.1246052" lon="-0.2808985">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Sandy"/>
+    <tag k="ref:tiploc" v="SNDY"/>
+    <tag k="naptan:AtcoCode" v="9100SNDY"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="207493" version="9" timestamp="2012-05-04T15:43:33Z" uid="401102" user="ian29" changeset="11499079" lat="52.4507612" lon="-1.7251273">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Birmingham International"/>
+    <tag k="naptan:AtcoCode" v="9100BHAMINT"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="304651" version="8" timestamp="2012-05-15T19:17:19Z" uid="165" user="Richard" changeset="11608021" lat="52.3993889" lon="-1.5475666">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Canley"/>
+    <tag k="naptan:AtcoCode" v="9100CANLEY"/>
+  </node>
+  <node id="304677" version="9" timestamp="2012-06-28T10:25:01Z" uid="3422" user="Milliams" changeset="12045121" lat="52.4008775" lon="-1.5139228">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE + GPX"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="name" v="Coventry"/>
+    <tag k="platforms" v="4"/>
+    <tag k="note:passenger_lounge" v="Not a great place to sleep! Higgy 20071207"/>
+    <tag k="naptan:AtcoCode" v="9100COVNTRY"/>
+  </node>
+  <node id="416578" version="7" timestamp="2012-05-15T19:17:39Z" uid="165" user="Richard" changeset="11608021" lat="52.8620914" lon="-1.2630825">
+    <tag k="railway" v="station"/>
+    <tag k="postal_code" v="NG11 0EE"/>
+    <tag k="name" v="East Midlands Parkway"/>
+    <tag k="naptan:AtcoCode" v="9100EMPKWAY"/>
+  </node>
+  <node id="416647" version="13" timestamp="2012-05-15T19:17:33Z" uid="165" user="Richard" changeset="11608021" lat="52.7791718" lon="-1.1959647">
+    <tag k="railway" v="station"/>
+    <tag k="wheelchair" v="limited"/>
+    <tag k="wheelchair:description" v="Need help getting across the tracks"/>
+    <tag k="name" v="Loughborough"/>
+    <tag k="naptan:AtcoCode" v="9100LOGHBRO"/>
+    <tag k="addr:city" v="Loughborough"/>
+  </node>
+  <node id="416761" version="10" timestamp="2012-11-15T00:19:34Z" uid="38784" user="Tom Morris" changeset="13878417" lat="52.6316351" lon="-1.1240866">
+    <tag k="railway" v="station"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="postal_code" v="LE2 0QB"/>
+    <tag k="name" v="Leicester"/>
+    <tag k="media:commons" v="https://commons.wikimedia.org/wiki/Category:Leicester_Central_railway_station"/>
+    <tag k="wikipedia" v="https://en.wikipedia.org/wiki/Leicester_railway_station"/>
+    <tag k="platforms" v="4"/>
+    <tag k="naptan:AtcoCode" v="9100LESTER"/>
+  </node>
+  <node id="416989" version="12" timestamp="2012-11-15T00:39:02Z" uid="38784" user="Tom Morris" changeset="13878489" lat="52.479486" lon="-0.9093243">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Market Harborough"/>
+    <tag k="media:commons" v="https://commons.wikimedia.org/wiki/Category:Market_Harborough_railway_station"/>
+    <tag k="wikipedia" v="https://en.wikipedia.org/wiki/Market_Harborough_railway_station"/>
+    <tag k="naptan:AtcoCode" v="9100MRKTHRB"/>
+  </node>
+  <node id="417225" version="9" timestamp="2012-11-15T00:39:02Z" uid="38784" user="Tom Morris" changeset="13878489" lat="52.3038684" lon="-0.6764731">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Wellingborough"/>
+    <tag k="media:commons" v="https://commons.wikimedia.org/wiki/Category:Wellingborough_railway_station"/>
+    <tag k="wikipedia" v="https://en.wikipedia.org/wiki/Wellingborough_railway_station"/>
+    <tag k="naptan:AtcoCode" v="9100WLNGBRO"/>
+  </node>
+  <node id="417365" version="10" timestamp="2012-11-15T00:39:01Z" uid="38784" user="Tom Morris" changeset="13878489" lat="52.1361991" lon="-0.4799282">
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Bedford"/>
+    <tag k="media:commons" v="https://commons.wikimedia.org/wiki/Category:Bedford_railway_station"/>
+    <tag k="wikipedia" v="en:Bedford_railway_station"/>
+    <tag k="train" v="yes"/>
+    <tag k="naptan:AtcoCode" v="9100BEDFDM"/>
+  </node>
+  <node id="600252" version="5" timestamp="2012-05-15T19:17:21Z" uid="165" user="Richard" changeset="11608021" lat="52.3962379" lon="-1.6421879">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Berkswell"/>
+    <tag k="naptan:AtcoCode" v="9100BKSWELL"/>
+  </node>
+  <node id="653032" version="7" timestamp="2012-05-15T19:25:26Z" uid="165" user="Richard" changeset="11608105" lat="52.5285663" lon="-1.8392253">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Erdington"/>
+    <tag k="naptan:AtcoCode" v="9100ERDNGTN"/>
+  </node>
+  <node id="653033" version="6" timestamp="2012-05-15T19:25:27Z" uid="165" user="Richard" changeset="11608105" lat="52.5357946" lon="-1.8324576">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Chester Road"/>
+    <tag k="naptan:AtcoCode" v="9100CHSRD"/>
+  </node>
+  <node id="653041" version="7" timestamp="2012-05-15T19:25:23Z" uid="165" user="Richard" changeset="11608105" lat="52.5647207" lon="-1.8252548">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Sutton Coldfield"/>
+    <tag k="naptan:AtcoCode" v="9100SUTCO"/>
+  </node>
+  <node id="653044" version="8" timestamp="2012-05-15T19:25:25Z" uid="165" user="Richard" changeset="11608105" lat="52.5153876" lon="-1.8527077">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Gravelly Hill"/>
+    <tag k="naptan:AtcoCode" v="9100GRAVLYH"/>
+  </node>
+  <node id="672672" version="7" timestamp="2012-05-15T19:25:29Z" uid="165" user="Richard" changeset="11608105" lat="52.5043754" lon="-1.8719855">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Aston"/>
+    <tag k="naptan:AtcoCode" v="9100ASTON"/>
+  </node>
+  <node id="672701" version="9" timestamp="2012-10-29T15:25:12Z" uid="9065" user="brianboru" changeset="13675167" lat="52.4884841" lon="-1.8711838">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Duddeston"/>
+    <tag k="naptan:AtcoCode" v="9100DUDESTN"/>
+  </node>
+  <node id="2502617" version="8" timestamp="2012-05-15T19:25:28Z" uid="165" user="Richard" changeset="11608105" lat="52.5925882" lon="-1.8383384">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Butlers Lane"/>
+    <tag k="naptan:AtcoCode" v="9100BTLRSLA"/>
+  </node>
+  <node id="3469981" version="6" timestamp="2012-11-15T00:39:02Z" uid="38784" user="Tom Morris" changeset="13878489" lat="52.3929231" lon="-0.7319572">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Kettering"/>
+    <tag k="media:commons" v="https://commons.wikimedia.org/wiki/Category:Kettering_railway_station"/>
+    <tag k="wikipedia" v="https://en.wikipedia.org/wiki/Kettering_railway_station"/>
+    <tag k="naptan:AtcoCode" v="9100KETR"/>
+  </node>
+  <node id="5872090" version="7" timestamp="2012-05-15T19:25:28Z" uid="165" user="Richard" changeset="11608105" lat="52.6043684" lon="-1.8446319">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Blake Street"/>
+    <tag k="naptan:AtcoCode" v="9100BLKST"/>
+  </node>
+  <node id="10287405" version="7" timestamp="2012-07-15T15:07:20Z" uid="722137" user="OSMF Redaction Account" changeset="12230616" lat="52.5782749" lon="-1.5523719">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Atherstone"/>
+    <tag k="naptan:AtcoCode" v="9100ATHRSTN"/>
+  </node>
+  <node id="10287419" version="6" timestamp="2012-06-30T21:12:32Z" uid="10983" user="Guy" changeset="12069426" lat="52.6257911" lon="-1.610521">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Polesworth"/>
+    <tag k="naptan:AtcoCode" v="9100PWTH"/>
+  </node>
+  <node id="10287455" version="8" timestamp="2012-05-15T19:25:23Z" uid="165" user="Richard" changeset="11608105" lat="52.68721" lon="-1.8006696">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Lichfield Trent Valley - Low Level"/>
+    <tag k="naptan:AtcoCode" v="9100LCHTTVL"/>
+  </node>
+  <node id="10287483" version="6" timestamp="2012-05-15T19:17:09Z" uid="165" user="Richard" changeset="11608021" lat="52.7696846" lon="-1.9298684">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Rugeley Trent Valley"/>
+    <tag k="naptan:AtcoCode" v="9100RUGL"/>
+  </node>
+  <node id="10287527" version="5" timestamp="2012-05-15T19:17:08Z" uid="165" user="Richard" changeset="11608021" lat="52.8039456" lon="-2.1228477">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Stafford"/>
+    <tag k="naptan:AtcoCode" v="9100STAFFRD"/>
+  </node>
+  <node id="10287545" version="8" timestamp="2012-07-14T00:19:50Z" uid="722137" user="OSMF Redaction Account" changeset="12212828" lat="52.8663404" lon="-2.1903366">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Norton Bridge"/>
+    <tag k="naptan:AtcoCode" v="9100NTNB"/>
+  </node>
+  <node id="10809201" version="9" timestamp="2012-05-15T19:25:34Z" uid="165" user="Richard" changeset="11608106" lat="52.4142672" lon="-1.9328061">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Kings Norton"/>
+    <tag k="naptan:AtcoCode" v="9100KNORTON"/>
+  </node>
+  <node id="10809211" version="8" timestamp="2012-05-15T19:25:37Z" uid="165" user="Richard" changeset="11608106" lat="52.4273865" lon="-1.9266395">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Bournville"/>
+    <tag k="naptan:AtcoCode" v="9100BOURNVL"/>
+  </node>
+  <node id="10809215" version="11" timestamp="2012-07-21T22:50:55Z" uid="5589" user="user_5589" changeset="12421862" lat="52.4418577" lon="-1.9356149">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Selly Oak"/>
+    <tag k="naptan:AtcoCode" v="9100SELYOAK"/>
+  </node>
+  <node id="10809344" version="8" timestamp="2012-05-15T19:25:32Z" uid="165" user="Richard" changeset="11608106" lat="52.4079711" lon="-1.9656209">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Northfield"/>
+    <tag k="naptan:AtcoCode" v="9100NRTF"/>
+  </node>
+  <node id="10913029" version="9" timestamp="2012-07-06T13:21:42Z" uid="48155" user="JonBritton" changeset="12130305" lat="52.4712151" lon="-1.9130158">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Five Ways"/>
+    <tag k="naptan:AtcoCode" v="9100FIVEWYS"/>
+  </node>
+  <node id="12009322" version="12" timestamp="2012-05-15T19:17:27Z" uid="165" user="Richard" changeset="11608021" lat="52.9120782" lon="-1.4107255">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Spondon"/>
+    <tag k="naptan:AtcoCode" v="9100SPDN"/>
+  </node>
+  <node id="12009324" version="7" timestamp="2012-10-05T21:35:21Z" uid="82783" user="Paul The Archivist" changeset="13378637" lat="52.9162233" lon="-1.4627587">
+    <tag k="railway" v="station"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="name" v="Derby"/>
+    <tag k="wikipedia" v="en:Derby railway station"/>
+    <tag k="naptan:AtcoCode" v="9100DRBY"/>
+  </node>
+  <node id="13766474" version="7" timestamp="2012-05-15T19:17:02Z" uid="165" user="Richard" changeset="11608021" lat="52.5185726" lon="-1.7430639">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Water Orton"/>
+    <tag k="naptan:AtcoCode" v="9100WTRORTN"/>
+  </node>
+  <node id="13889542" version="9" timestamp="2012-05-15T19:17:04Z" uid="165" user="Richard" changeset="11608021" lat="52.636916" lon="-1.6864816">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Tamworth (High Level)"/>
+    <tag k="layer" v="1"/>
+    <tag k="naptan:AtcoCode" v="9100TMWTHHL"/>
+    <tag k="operator" v="London Midland"/>
+    <tag k="note" v="Operator refers to the station not the train services"/>
+  </node>
+  <node id="13889549" version="8" timestamp="2012-05-15T19:17:04Z" uid="165" user="Richard" changeset="11608021" lat="52.637489" lon="-1.6871497">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Tamworth (Low Level)"/>
+  </node>
+  <node id="14462005" version="8" timestamp="2012-05-15T19:25:25Z" uid="165" user="Richard" changeset="11608105" lat="52.5795483" lon="-1.8280042">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Four Oaks"/>
+    <tag k="naptan:AtcoCode" v="9100FOUROKS"/>
+  </node>
+  <node id="14559854" version="8" timestamp="2012-05-15T19:25:07Z" uid="165" user="Richard" changeset="11608102" lat="52.195133" lon="-2.2218137">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Worcester Foregate Street"/>
+    <tag k="naptan:AtcoCode" v="9100WORCSFS"/>
+  </node>
+  <node id="14559880" version="6" timestamp="2012-05-15T19:25:07Z" uid="165" user="Richard" changeset="11608102" lat="52.1950226" lon="-2.2093715">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Worcester Shrub Hill"/>
+    <tag k="naptan:AtcoCode" v="9100WORCSSH"/>
+  </node>
+  <node id="14560446" version="7" timestamp="2012-05-15T19:25:14Z" uid="165" user="Richard" changeset="11608102" lat="52.1016247" lon="-1.8336931">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Honeybourne"/>
+    <tag k="naptan:AtcoCode" v="9100HONYBRN"/>
+  </node>
+  <node id="17571849" version="5" timestamp="2012-07-24T17:10:39Z" uid="82783" user="Paul The Archivist" changeset="12471474" lat="52.060578" lon="-1.3277371">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Banbury"/>
+    <tag k="naptan:AtcoCode" v="9100BNBR"/>
+  </node>
+  <node id="18308353" version="5" timestamp="2012-11-15T01:01:18Z" uid="38784" user="Tom Morris" changeset="13878595" lat="52.7610257" lon="-0.8858161">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Melton Mowbray"/>
+    <tag k="media:commons" v="https://commons.wikimedia.org/wiki/Category:Melton_Mowbray_railway_station"/>
+    <tag k="wikipedia" v="https://en.wikipedia.org/wiki/Melton_Mowbray_railway_station"/>
+    <tag k="naptan:AtcoCode" v="9100MLTNSDG"/>
+  </node>
+  <node id="18308531" version="10" timestamp="2012-12-05T23:13:01Z" uid="125259" user="abc26324" changeset="14169508" lat="52.6478103" lon="-0.4801012">
+    <tag k="ref" v="SMD"/>
+    <tag k="railway" v="station"/>
+    <tag k="postal_code" v="PE9 2JL"/>
+    <tag k="name" v="Stamford"/>
+    <tag k="naptan:AtcoCode" v="9100STAMFD"/>
+  </node>
+  <node id="18308732" version="9" timestamp="2012-11-09T21:08:23Z" uid="4951" user="PeterIto" changeset="13814381" lat="52.3906881" lon="0.266499">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Ely"/>
+    <tag k="wikipedia" v="en:Ely station"/>
+    <tag k="naptan:AtcoCode" v="9100ELYY"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="18308760" version="8" timestamp="2012-08-18T18:57:37Z" uid="290680" user="wheelmap_visitor" changeset="12769358" lat="52.6939571" lon="-1.0825866">
+    <tag k="railway" v="station"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="postal_code" v="LE7 2HA"/>
+    <tag k="name" v="Syston"/>
+    <tag k="naptan:AtcoCode" v="9100SYSTON"/>
+  </node>
+  <node id="18660148" version="4" timestamp="2012-05-04T15:40:03Z" uid="452299" user="nsmith" changeset="11499042" lat="52.9065726" lon="-0.6431208">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Grantham"/>
+    <tag k="naptan:AtcoCode" v="9100GTHM"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="18668223" version="5" timestamp="2012-05-15T19:17:12Z" uid="165" user="Richard" changeset="11608021" lat="52.5711447" lon="-1.2034032">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="survey"/>
+    <tag k="postal_code" v="LE9 5HR"/>
+    <tag k="name" v="Narborough"/>
+    <tag k="naptan:AtcoCode" v="9100NARBRO"/>
+  </node>
+  <node id="20473093" version="12" timestamp="2012-05-04T15:45:05Z" uid="452299" user="nsmith" changeset="11499094" lat="52.9780637" lon="-0.031241">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE tracing"/>
+    <tag k="name" v="Boston"/>
+    <tag k="naptan:AtcoCode" v="9100BOSTON"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="20590616" version="4" timestamp="2012-05-04T16:06:59Z" uid="452299" user="nsmith" changeset="11499255" lat="52.1035463" lon="0.1657012">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Whittlesford Parkway"/>
+    <tag k="naptan:AtcoCode" v="9100WTLESFD"/>
+    <tag k="network" v="National Rail"/>
+    <tag k="note" v="Name changed in Summer 2007 timetables"/>
+  </node>
+  <node id="20696101" version="9" timestamp="2012-05-15T19:16:54Z" uid="165" user="Richard" changeset="11608017" lat="52.4831043" lon="-1.8551504">
+    <tag k="uic_ref" v="7000038"/>
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Adderley Park"/>
+    <tag k="naptan:AtcoCode" v="9100ADERLYP"/>
+  </node>
+  <node id="20920612" version="8" timestamp="2012-12-27T18:53:07Z" uid="10983" user="Guy" changeset="14429441" lat="52.7404401" lon="-1.1876449">
+    <tag k="addr:postcode" v="LE12 8AW"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Quorn &amp; Woodhouse"/>
+    <tag k="wikipedia" v="en:Quorn and Woodhouse railway station"/>
+    <tag k="usage" v="tourism"/>
+    <tag k="addr:housenumber" v="Quorn &amp; Woodhouse Station"/>
+  </node>
+  <node id="20920616" version="11" timestamp="2012-12-27T19:05:03Z" uid="10983" user="Guy" changeset="14429629" lat="52.7691337" lon="-1.1957955">
+    <tag k="addr:postcode" v="LE11 1RW"/>
+    <tag k="railway" v="station"/>
+    <tag k="wheelchair" v="limited"/>
+    <tag k="name" v="Loughborough Central"/>
+    <tag k="wikipedia" v="en:Loughborough Central railway station"/>
+    <tag k="usage" v="tourism"/>
+    <tag k="addr:city" v="Loughborough"/>
+    <tag k="addr:housenumber" v="Loughborough Central Station"/>
+  </node>
+  <node id="20960271" version="7" timestamp="2012-11-07T05:26:37Z" uid="4951" user="PeterIto" changeset="13781567" lat="52.2015434" lon="0.366365">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Dullingham"/>
+    <tag k="wikipedia" v="en:Dullingham railway station"/>
+    <tag k="naptan:AtcoCode" v="9100DULNGHM"/>
+  </node>
+  <node id="20977183" version="15" timestamp="2012-05-04T15:43:37Z" uid="401102" user="ian29" changeset="11499079" lat="52.7117442" lon="-2.7494309">
+    <tag k="ref" v="SHR"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Shrewsbury"/>
+    <tag k="naptan:AtcoCode" v="9100SHRWBY"/>
+    <tag k="old_name" v="Shrewsbury General"/>
+    <tag k="name:cy" v="Yr Amwythig"/>
+    <tag k="operator" v="Arriva Trains Wales"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="20982656" version="5" timestamp="2012-05-04T18:29:36Z" uid="452299" user="nsmith" changeset="11500549" lat="52.2859541" lon="-1.611756">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Warwick Parkway"/>
+    <tag k="naptan:AtcoCode" v="9100WARWPWY"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="20982857" version="5" timestamp="2012-05-04T18:29:35Z" uid="452299" user="nsmith" changeset="11500549" lat="52.2952126" lon="-1.6729068">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Hatton"/>
+    <tag k="naptan:AtcoCode" v="9100HATTON"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="20983005" version="6" timestamp="2012-05-04T18:29:36Z" uid="452299" user="nsmith" changeset="11500549" lat="52.3417839" lon="-1.7257883">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Lapworth"/>
+    <tag k="naptan:AtcoCode" v="9100LAPWRTH"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="20983011" version="6" timestamp="2012-05-04T18:29:35Z" uid="452299" user="nsmith" changeset="11500549" lat="52.3718751" lon="-1.7527722">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Dorridge"/>
+    <tag k="naptan:AtcoCode" v="9100DORIDGE"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="20983015" version="10" timestamp="2012-05-15T19:16:29Z" uid="165" user="Richard" changeset="11608017" lat="52.3962802" lon="-1.7743426">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Widney Manor"/>
+    <tag k="naptan:AtcoCode" v="9100WDNYMNR"/>
+  </node>
+  <node id="20983048" version="12" timestamp="2012-05-04T18:35:05Z" uid="452299" user="nsmith" changeset="11500613" lat="52.4539236" lon="-1.8385161">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Tyseley"/>
+    <tag k="wikipedia" v="http://en.wikipedia.org/wiki/Tyseley_railway_station"/>
+    <tag k="naptan:AtcoCode" v="9100TYSL"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="20984161" version="7" timestamp="2012-05-15T19:16:33Z" uid="165" user="Richard" changeset="11608017" lat="52.4144553" lon="-1.7883911">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Solihull"/>
+    <tag k="naptan:AtcoCode" v="9100SOLIHUL"/>
+  </node>
+  <node id="20984401" version="10" timestamp="2012-05-04T18:35:03Z" uid="452299" user="nsmith" changeset="11500613" lat="52.4722925" lon="-1.8778555">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE;survey"/>
+    <tag k="name" v="Bordesley"/>
+    <tag k="naptan:AtcoCode" v="9100BRDS"/>
+    <tag k="network" v="National Rail"/>
+    <tag k="note" v="only open on BCFC match days"/>
+  </node>
+  <node id="20984433" version="23" timestamp="2012-07-16T01:05:22Z" uid="139424" user="pigsonthewing" changeset="12238115" lat="52.4836264" lon="-1.8994682">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="knowledge"/>
+    <tag k="name" v="Birmingham Snow Hill"/>
+    <tag k="wikipedia" v="en:Birmingham Snow Hill station"/>
+    <tag k="layer" v="1"/>
+    <tag k="naptan:AtcoCode" v="9100BHAMSNH"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="20985079" version="8" timestamp="2012-05-15T19:17:10Z" uid="165" user="Richard" changeset="11608021" lat="52.3790255" lon="-1.249771">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Rugby"/>
+    <tag k="naptan:AtcoCode" v="9100RUGBY"/>
+  </node>
+  <node id="20985105" version="7" timestamp="2012-09-09T18:27:11Z" uid="84263" user="Robert Whittaker" changeset="13047971" lat="52.5263761" lon="-1.4637936">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Nuneaton"/>
+    <tag k="naptan:AtcoCode" v="9100NNTN"/>
+  </node>
+  <node id="20992683" version="8" timestamp="2012-09-04T00:39:58Z" uid="843307" user="MapperMondo" changeset="12975366" lat="52.0000171" lon="-0.7172938">
+    <tag k="ref" v="FEN"/>
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="postal_code" v="MK2 2XP"/>
+    <tag k="name" v="Fenny Stratford"/>
+    <tag k="naptan:AtcoCode" v="9100FSTR"/>
+  </node>
+  <node id="20995199" version="6" timestamp="2012-05-15T19:16:39Z" uid="165" user="Richard" changeset="11608017" lat="52.2373719" lon="-0.9069997">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Northampton"/>
+    <tag k="naptan:AtcoCode" v="9100NMPTN"/>
+  </node>
+  <node id="21001357" version="6" timestamp="2012-12-26T10:10:37Z" uid="376459" user="Bobby Dazzler" changeset="14410087" lat="52.2947664" lon="-1.0869801">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Long Buckby"/>
+    <tag k="naptan:AtcoCode" v="9100LNGBKBY"/>
+  </node>
+  <node id="21094440" version="5" timestamp="2012-10-07T18:19:44Z" uid="4951" user="PeterIto" changeset="13402420" lat="52.3736221" lon="1.1235353">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Diss"/>
+    <tag k="wikipedia" v="en:Diss railway station"/>
+    <tag k="naptan:AtcoCode" v="9100DISS"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="21094487" version="6" timestamp="2012-05-04T17:33:03Z" uid="452299" user="nsmith" changeset="11499973" lat="52.189978" lon="1.0000256">
+    <tag k="ref" v="SMK"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Stowmarket"/>
+    <tag k="wikipedia" v="http://en.wikipedia.org/wiki/Stowmarket_railway_station"/>
+    <tag k="naptan:AtcoCode" v="9100STWMRKT"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="21095303" version="7" timestamp="2012-10-07T16:04:03Z" uid="4951" user="PeterIto" changeset="13400318" lat="52.1526239" lon="1.0554672">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Needham Market"/>
+    <tag k="wikipedia" v="en:Needham Market railway station"/>
+    <tag k="naptan:AtcoCode" v="9100NEEDHAM"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="21136758" version="10" timestamp="2012-05-04T15:43:38Z" uid="401102" user="ian29" changeset="11499079" lat="52.6811043" lon="-2.4411791">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Telford Central"/>
+    <tag k="naptan:AtcoCode" v="9100TELFRDC"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="21136769" version="8" timestamp="2012-05-15T19:16:35Z" uid="165" user="Richard" changeset="11608017" lat="52.6660175" lon="-2.3712246">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Shifnal"/>
+    <tag k="naptan:AtcoCode" v="9100SHIFNAL"/>
+  </node>
+  <node id="21137805" version="8" timestamp="2012-05-15T19:16:48Z" uid="165" user="Richard" changeset="11608017" lat="52.6448088" lon="-2.2984592">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Cosford"/>
+    <tag k="naptan:AtcoCode" v="9100COSFORD"/>
+  </node>
+  <node id="21137816" version="8" timestamp="2012-05-15T19:16:53Z" uid="165" user="Richard" changeset="11608017" lat="52.6380515" lon="-2.2687337">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Albrighton"/>
+    <tag k="naptan:AtcoCode" v="9100ALBRGHT"/>
+  </node>
+  <node id="21137839" version="9" timestamp="2012-05-15T19:16:49Z" uid="165" user="Richard" changeset="11608017" lat="52.6273879" lon="-2.201754">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Codsall"/>
+    <tag k="naptan:AtcoCode" v="9100CODSALL"/>
+  </node>
+  <node id="21137843" version="10" timestamp="2012-05-15T19:16:52Z" uid="165" user="Richard" changeset="11608017" lat="52.6236593" lon="-2.1863079">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Bilbrook"/>
+    <tag k="naptan:AtcoCode" v="9100BILBROK"/>
+  </node>
+  <node id="21137875" version="13" timestamp="2012-05-04T15:43:39Z" uid="401102" user="ian29" changeset="11499079" lat="52.5876559" lon="-2.1199992">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Wolverhampton"/>
+    <tag k="wikipedia" v="en:Wolverhampton railway station"/>
+    <tag k="naptan:AtcoCode" v="9100WVRMPTN"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="21137896" version="10" timestamp="2012-09-05T22:31:26Z" uid="5589" user="user_5589" changeset="13002749" lat="52.5453156" lon="-2.0858348">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Coseley"/>
+    <tag k="naptan:AtcoCode" v="9100COSELEY"/>
+  </node>
+  <node id="21137911" version="8" timestamp="2012-09-05T22:23:32Z" uid="5589" user="user_5589" changeset="13002749" lat="52.5305183" lon="-2.065823">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Tipton"/>
+    <tag k="naptan:AtcoCode" v="9100TIPTON"/>
+  </node>
+  <node id="21140726" version="9" timestamp="2012-08-16T22:06:57Z" uid="5589" user="user_5589" changeset="12754978" lat="52.4964344" lon="-1.9701934">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Smethwick Rolfe Street"/>
+    <tag k="wikipedia" v="en:Smethwick Rolfe Street railway station"/>
+    <tag k="naptan:AtcoCode" v="9100SMTHKRS"/>
+  </node>
+  <node id="21141605" version="6" timestamp="2012-05-15T19:25:24Z" uid="165" user="Richard" changeset="11608105" lat="52.6799972" lon="-1.8255941">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Lichfield City"/>
+    <tag k="naptan:AtcoCode" v="9100LCHC"/>
+  </node>
+  <node id="21141609" version="5" timestamp="2012-05-15T19:17:09Z" uid="165" user="Richard" changeset="11608021" lat="52.7546108" lon="-1.9372427">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Rugeley Town"/>
+    <tag k="naptan:AtcoCode" v="9100RUGLTWN"/>
+  </node>
+  <node id="21142668" version="5" timestamp="2012-05-15T19:17:17Z" uid="165" user="Richard" changeset="11608021" lat="52.7100789" lon="-2.0018587">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Hednesford"/>
+    <tag k="naptan:AtcoCode" v="9100HDNS"/>
+  </node>
+  <node id="21185964" version="7" timestamp="2012-07-14T00:13:55Z" uid="722137" user="OSMF Redaction Account" changeset="12212785" lat="52.9513566" lon="-2.1708357">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Wedgwood"/>
+    <tag k="naptan:AtcoCode" v="9100WEDGWD"/>
+  </node>
+  <node id="21227431" version="11" timestamp="2012-05-15T19:25:38Z" uid="165" user="Richard" changeset="11608106" lat="52.3619343" lon="-1.9917919">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Barnt Green"/>
+    <tag k="naptan:AtcoCode" v="9100BGRN"/>
+  </node>
+  <node id="21227447" version="11" timestamp="2012-08-19T12:53:57Z" uid="5589" user="user_5589" changeset="12783209" lat="52.3220806" lon="-2.0475883">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Bromsgrove"/>
+    <tag k="naptan:AtcoCode" v="9100BRMSGRV"/>
+  </node>
+  <node id="21227482" version="10" timestamp="2012-05-22T15:40:33Z" uid="549719" user="class172" changeset="11672804" lat="52.2682838" lon="-2.1584254">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Droitwich Spa"/>
+    <tag k="platforms" v="2"/>
+    <tag k="naptan:AtcoCode" v="9100DRTWCHS"/>
+    <tag k="operator" v="London Midland"/>
+  </node>
+  <node id="21256638" version="2" timestamp="2011-02-28T06:12:44Z" uid="364" user="Edward" changeset="7417631" lat="52.7233766" lon="-2.1194673">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Penkridge"/>
+    <tag k="naptan:AtcoCode" v="9100PNKRDG"/>
+  </node>
+  <node id="21257422" version="6" timestamp="2012-09-05T23:18:01Z" uid="5589" user="user_5589" changeset="13003510" lat="52.5630125" lon="-1.9910504">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Bescot Stadium"/>
+    <tag k="naptan:AtcoCode" v="9100BSCTSTA"/>
+  </node>
+  <node id="21257431" version="7" timestamp="2012-05-15T19:16:31Z" uid="165" user="Richard" changeset="11608017" lat="52.5522427" lon="-1.9759632">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Tame Bridge Parkway"/>
+    <tag k="naptan:AtcoCode" v="9100TAMEBDG"/>
+  </node>
+  <node id="21257447" version="11" timestamp="2012-08-17T12:52:03Z" uid="5589" user="user_5589" changeset="12762247" lat="52.5310039" lon="-1.9288524">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Hamstead"/>
+    <tag k="naptan:AtcoCode" v="9100HAMSTED"/>
+    <tag k="note" v="Old name: Great Barr Railway Station"/>
+  </node>
+  <node id="21257480" version="9" timestamp="2012-08-17T09:39:53Z" uid="5589" user="user_5589" changeset="12760256" lat="52.516391" lon="-1.9020671">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Perry Barr"/>
+    <tag k="naptan:AtcoCode" v="9100PRYBR"/>
+  </node>
+  <node id="21264498" version="7" timestamp="2012-08-17T12:01:54Z" uid="5589" user="user_5589" changeset="12760256" lat="52.5122032" lon="-1.8839156">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Witton"/>
+    <tag k="naptan:AtcoCode" v="9100WITTON"/>
+  </node>
+  <node id="21264536" version="5" timestamp="2012-11-24T21:54:43Z" uid="413286" user="Chris Northwood" changeset="14019618" lat="52.0258212" lon="-0.266464">
+    <tag k="source:name" v="local knowledge"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Arlesey"/>
+    <tag k="ref:tiploc" v="ARLSEY"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="21279358" version="5" timestamp="2012-05-15T19:25:09Z" uid="165" user="Richard" changeset="11608102" lat="52.1307543" lon="-2.0723632">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Pershore"/>
+    <tag k="naptan:AtcoCode" v="9100PERSHOR"/>
+  </node>
+  <node id="21279379" version="5" timestamp="2012-05-15T19:25:17Z" uid="165" user="Richard" changeset="11608102" lat="52.0984808" lon="-1.9472976">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Evesham"/>
+    <tag k="naptan:AtcoCode" v="9100EVESHAM"/>
+  </node>
+  <node id="21279791" version="11" timestamp="2012-05-15T19:25:12Z" uid="165" user="Richard" changeset="11608102" lat="52.1258113" lon="-2.3195897">
+    <tag k="addr:postcode" v="WR14 1SW"/>
+    <tag k="ref" v="MVL"/>
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Malvern Link"/>
+    <tag k="naptan:AtcoCode" v="9100MLVRNLK"/>
+  </node>
+  <node id="21279792" version="13" timestamp="2012-05-15T19:25:16Z" uid="165" user="Richard" changeset="11608102" lat="52.1093044" lon="-2.3181521">
+    <tag k="addr:postcode" v="WR14 3AL"/>
+    <tag k="ref" v="GMV"/>
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Great Malvern"/>
+    <tag k="naptan:AtcoCode" v="9100GTMLVRN"/>
+  </node>
+  <node id="21280092" version="10" timestamp="2012-05-15T19:25:19Z" uid="165" user="Richard" changeset="11608102" lat="52.0798345" lon="-2.35678">
+    <tag k="addr:postcode" v="WR13 6RN"/>
+    <tag k="ref" v="CWL"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Colwall"/>
+    <tag k="naptan:AtcoCode" v="9100CLWALL"/>
+  </node>
+  <node id="21280124" version="7" timestamp="2012-05-15T19:25:13Z" uid="165" user="Richard" changeset="11608102" lat="52.0452676" lon="-2.4256065">
+    <tag k="ref" v="LED"/>
+    <tag k="railway" v="station"/>
+    <tag k="source" v="survey"/>
+    <tag k="postal_code" v="HR8 1AR"/>
+    <tag k="name" v="Ledbury"/>
+    <tag k="naptan:AtcoCode" v="9100LDBURY"/>
+  </node>
+  <node id="21280554" version="9" timestamp="2012-05-15T19:25:47Z" uid="165" user="Richard" changeset="11608108" lat="52.0614328" lon="-2.7087233">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Hereford"/>
+    <tag k="naptan:AtcoCode" v="9100HEREFRD"/>
+    <tag k="name:cy" v="Henffordd"/>
+  </node>
+  <node id="21281061" version="7" timestamp="2012-05-15T19:16:45Z" uid="165" user="Richard" changeset="11608017" lat="52.3345488" lon="-2.2211507">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Hartlebury"/>
+    <tag k="naptan:AtcoCode" v="9100HBRY"/>
+  </node>
+  <node id="21281108" version="7" timestamp="2012-05-15T19:16:42Z" uid="165" user="Richard" changeset="11608017" lat="52.384272" lon="-2.2385345">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Kidderminster"/>
+    <tag k="naptan:AtcoCode" v="9100KDRMNST"/>
+    <tag k="operator" v="London Midland"/>
+  </node>
+  <node id="21281145" version="6" timestamp="2012-05-15T19:16:52Z" uid="165" user="Richard" changeset="11608017" lat="52.4064493" lon="-2.1768216">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Blakedown"/>
+    <tag k="naptan:AtcoCode" v="9100BLAKEDN"/>
+    <tag k="operator" v="London Midland"/>
+  </node>
+  <node id="21281240" version="6" timestamp="2012-10-07T18:08:10Z" uid="9065" user="brianboru" changeset="13402242" lat="52.4224267" lon="-2.1465358">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Hagley"/>
+    <tag k="naptan:AtcoCode" v="9100HAGLEY"/>
+  </node>
+  <node id="21281257" version="5" timestamp="2012-05-15T19:16:32Z" uid="165" user="Richard" changeset="11608017" lat="52.4476036" lon="-2.1340314">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Stourbridge Junction"/>
+    <tag k="naptan:AtcoCode" v="9100STRBDGJ"/>
+  </node>
+  <node id="21281267" version="7" timestamp="2012-05-15T19:16:32Z" uid="165" user="Richard" changeset="11608017" lat="52.4556421" lon="-2.1419732">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Stourbridge Town"/>
+    <tag k="naptan:AtcoCode" v="9100STRBDGT"/>
+  </node>
+  <node id="21281283" version="6" timestamp="2012-05-11T21:50:26Z" uid="563773" user="mrpacmanmap" changeset="11571993" lat="52.4598829" lon="-2.1160336">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Lye"/>
+    <tag k="naptan:AtcoCode" v="9100LYEE"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="21281285" version="7" timestamp="2012-05-15T19:16:47Z" uid="165" user="Richard" changeset="11608017" lat="52.4694408" lon="-2.0906252">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Cradley Heath"/>
+    <tag k="naptan:AtcoCode" v="9100CRADLYH"/>
+  </node>
+  <node id="21281425" version="6" timestamp="2012-05-15T19:16:37Z" uid="165" user="Richard" changeset="11608017" lat="52.4707846" lon="-2.0561923">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Old Hill"/>
+    <tag k="naptan:AtcoCode" v="9100OLHL"/>
+  </node>
+  <node id="21281483" version="7" timestamp="2012-05-15T19:16:36Z" uid="165" user="Richard" changeset="11608017" lat="52.4773585" lon="-2.0309039">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Rowley Regis"/>
+    <tag k="naptan:AtcoCode" v="9100ROWLEYR"/>
+    <tag k="operator" v="London Midland"/>
+  </node>
+  <node id="21281486" version="6" timestamp="2012-05-15T19:16:42Z" uid="165" user="Richard" changeset="11608017" lat="52.4934857" lon="-2.0054314">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Langley Green"/>
+    <tag k="naptan:AtcoCode" v="9100LGRN"/>
+  </node>
+  <node id="21281518" version="3" timestamp="2012-05-04T16:14:53Z" uid="452299" user="nsmith" changeset="11499326" lat="52.0907214" lon="0.0090087">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Meldreth"/>
+    <tag k="naptan:AtcoCode" v="9100MELDRTH"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="21281542" version="8" timestamp="2012-10-03T01:16:40Z" uid="4951" user="PeterIto" changeset="13341970" lat="52.3755871" lon="-2.3061002">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Bewdley"/>
+    <tag k="usage" v="tourism"/>
+    <tag k="is_in:county" v="Worcestershire"/>
+  </node>
+  <node id="21281543" version="9" timestamp="2012-10-03T01:16:40Z" uid="4951" user="PeterIto" changeset="13341970" lat="52.3945523" lon="-2.3274107">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Northwood Halt"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="21281544" version="7" timestamp="2012-10-18T18:45:36Z" uid="9065" user="brianboru" changeset="13548266" lat="52.4171608" lon="-2.3488657">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Arley"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="21281828" version="6" timestamp="2012-10-03T01:16:40Z" uid="4951" user="PeterIto" changeset="13341970" lat="52.4738899" lon="-2.3771788">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Hampton Loade"/>
+    <tag k="usage" v="tourism"/>
+    <tag k="note" v="name from nearby village"/>
+  </node>
+  <node id="21281829" version="4" timestamp="2012-10-03T01:16:40Z" uid="4951" user="PeterIto" changeset="13341970" lat="52.444908" lon="-2.3705819">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Highley"/>
+    <tag k="usage" v="tourism"/>
+    <tag k="note" v="Name from nearby village"/>
+  </node>
+  <node id="21281888" version="7" timestamp="2012-10-03T01:16:40Z" uid="4951" user="PeterIto" changeset="13341970" lat="52.5305804" lon="-2.4207987">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="GPS"/>
+    <tag k="website" v="http://www.bridgnorthstation.co.uk/"/>
+    <tag k="name" v="Bridgnorth"/>
+    <tag k="usage" v="tourism"/>
+    <tag k="platforms" v="2"/>
+  </node>
+  <node id="21285575" version="5" timestamp="2012-11-15T00:39:01Z" uid="38784" user="Tom Morris" changeset="13878489" lat="52.003911" lon="-0.4949414">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Flitwick"/>
+    <tag k="media:commons" v="https://commons.wikimedia.org/wiki/Category:Flitwick_railway_station"/>
+    <tag k="wikipedia" v="https://en.wikipedia.org/wiki/Flitwick_railway_station"/>
+    <tag k="naptan:AtcoCode" v="9100FLITWCK"/>
+  </node>
+  <node id="21618327" version="5" timestamp="2012-05-15T19:17:16Z" uid="165" user="Richard" changeset="11608021" lat="52.535176" lon="-1.370998">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="GPS waypoint"/>
+    <tag k="postal_code" v="LE10 1UE"/>
+    <tag k="name" v="Hinckley"/>
+    <tag k="naptan:AtcoCode" v="9100HINCKLY"/>
+    <tag k="upload_tag" v="ojw_bham"/>
+  </node>
+  <node id="21635477" version="15" timestamp="2012-09-04T09:26:22Z" uid="524366" user="Melissa Chapin" changeset="12979097" lat="52.034077" lon="-0.7745814">
+    <tag k="ref" v="MKC"/>
+    <tag k="railway" v="station"/>
+    <tag k="wheelchair" v="limited"/>
+    <tag k="wheelchair:description" v="Refurbishment of station forecourt in Spring 2012 created several difficulties for disabled visitors. Rounded drop off, 1 (unmarked) dropped kerb = taxi use nightmare."/>
+    <tag k="postal_code" v="MK9 1LA"/>
+    <tag k="name" v="Milton Keynes Central"/>
+    <tag k="platforms" v="7"/>
+    <tag k="naptan:AtcoCode" v="9100MKNSCEN"/>
+    <tag k="operator" v="London Midland"/>
+  </node>
+  <node id="25036155" version="11" timestamp="2012-10-07T16:10:01Z" uid="4951" user="PeterIto" changeset="13400428" lat="52.2772509" lon="0.4902283">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Kennett"/>
+    <tag k="wikipedia" v="en:Kennett railway station"/>
+    <tag k="naptan:AtcoCode" v="9100KENNETT"/>
+  </node>
+  <node id="25331284" version="5" timestamp="2012-05-04T16:06:58Z" uid="452299" user="nsmith" changeset="11499255" lat="52.0598945" lon="0.1931518">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="GPS survey"/>
+    <tag k="name" v="Great Chesterford"/>
+    <tag k="naptan:AtcoCode" v="9100GTCHSFD"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="25479889" version="12" timestamp="2012-05-15T19:17:07Z" uid="165" user="Richard" changeset="11608021" lat="52.4851671" lon="-1.8116699">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Stechford"/>
+    <tag k="naptan:AtcoCode" v="9100STECHFD"/>
+  </node>
+  <node id="25522884" version="8" timestamp="2012-05-15T19:17:15Z" uid="165" user="Richard" changeset="11608021" lat="52.480731" lon="-1.7866895">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Lea Hall"/>
+    <tag k="naptan:AtcoCode" v="9100LEAHALL"/>
+  </node>
+  <node id="25524280" version="10" timestamp="2012-05-15T19:17:13Z" uid="165" user="Richard" changeset="11608021" lat="52.4669026" lon="-1.7551019">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Marston Green"/>
+    <tag k="naptan:AtcoCode" v="9100MRSTNGR"/>
+  </node>
+  <node id="25524281" version="8" timestamp="2012-05-15T19:17:17Z" uid="165" user="Richard" changeset="11608021" lat="52.4288874" lon="-1.699979">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Hampton-in-Arden"/>
+    <tag k="naptan:AtcoCode" v="9100HMPTNIA"/>
+  </node>
+  <node id="25549573" version="8" timestamp="2012-08-10T20:26:46Z" uid="5589" user="user_5589" changeset="12684465" lat="52.4210127" lon="-1.8545892">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Yardley Wood"/>
+    <tag k="naptan:AtcoCode" v="9100YRDLYWD"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="25549581" version="5" timestamp="2012-05-04T18:35:04Z" uid="452299" user="nsmith" changeset="11500613" lat="52.4369951" lon="-1.8455973">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Hall Green"/>
+    <tag k="naptan:AtcoCode" v="9100HLGN"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="25549582" version="7" timestamp="2012-07-21T15:23:31Z" uid="5589" user="user_5589" changeset="12413147" lat="52.4442762" lon="-1.8362836">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Spring Road"/>
+    <tag k="naptan:AtcoCode" v="9100SPRD"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="25591466" version="9" timestamp="2012-11-09T21:08:24Z" uid="4951" user="PeterIto" changeset="13814381" lat="52.4191412" lon="0.7452865">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Thetford"/>
+    <tag k="wikipedia" v="en:Thetford railway station"/>
+    <tag k="naptan:AtcoCode" v="9100THETFD"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="25685792" version="5" timestamp="2012-05-26T14:25:27Z" uid="4951" user="PeterIto" changeset="11706968" lat="52.0505454" lon="1.1826445">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Derby Road"/>
+    <tag k="wikipedia" v="en:Derby Road railway station"/>
+    <tag k="naptan:AtcoCode" v="9100DERBYRD"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="25685939" version="9" timestamp="2012-05-26T14:22:31Z" uid="4951" user="PeterIto" changeset="11706968" lat="52.0811085" lon="1.1662617">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Westerfield"/>
+    <tag k="wikipedia" v="en:Westerfield railway station"/>
+    <tag k="naptan:AtcoCode" v="9100WSTRFLD"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="26114838" version="8" timestamp="2012-11-10T10:49:40Z" uid="4951" user="PeterIto" changeset="13819105" lat="52.6233693" lon="1.4181607">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Brundall Gardens"/>
+    <tag k="wikipedia" v="en:Brundall Gardens railway station"/>
+    <tag k="naptan:AtcoCode" v="9100BRUNDLG"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="26117436" version="10" timestamp="2012-05-04T17:11:59Z" uid="452299" user="nsmith" changeset="11499788" lat="52.2620268" lon="0.1965126">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Waterbeach"/>
+    <tag k="naptan:AtcoCode" v="9100WATBECH"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="26237649" version="13" timestamp="2012-11-15T00:39:01Z" uid="38784" user="Tom Morris" changeset="13878489" lat="52.1293796" lon="-0.4676197">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Bedford St Johns"/>
+    <tag k="media:commons" v="https://commons.wikimedia.org/wiki/Category:Bedford_St_Johns_railway_station"/>
+    <tag k="wikipedia" v="en:Bedford_St_Johns_railway_station"/>
+    <tag k="naptan:AtcoCode" v="9100BESJOHN"/>
+  </node>
+  <node id="26524106" version="6" timestamp="2012-11-10T10:49:40Z" uid="4951" user="PeterIto" changeset="13819105" lat="52.6194185" lon="1.4391327">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Brundall"/>
+    <tag k="wikipedia" v="en:Brundall railway station"/>
+    <tag k="naptan:AtcoCode" v="9100BRUNDAL"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="26848836" version="8" timestamp="2011-12-11T13:32:40Z" uid="4951" user="PeterIto" changeset="10089661" lat="52.5587313" lon="-0.6558232">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Harringworth"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="26852475" version="10" timestamp="2012-03-20T22:23:04Z" uid="4951" user="PeterIto" changeset="11046462" lat="52.5604755" lon="-0.4103556">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Yarwell Junction"/>
+    <tag k="tourism" v="heritage_railway"/>
+  </node>
+  <node id="26965995" version="10" timestamp="2012-12-27T19:15:32Z" uid="10983" user="Guy" changeset="14429763" lat="52.7042914" lon="-1.1598327">
+    <tag k="addr:postcode" v="LE7 7LD"/>
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Rothley"/>
+    <tag k="wikipedia" v="en:Rothley railway station"/>
+    <tag k="usage" v="tourism"/>
+    <tag k="addr:housename" v="Rothley Railway Station"/>
+    <tag k="addr:city" v="Rothley"/>
+  </node>
+  <node id="27181044" version="6" timestamp="2012-05-15T19:25:23Z" uid="165" user="Richard" changeset="11608105" lat="52.545628" lon="-1.8314247">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Wylde Green"/>
+    <tag k="naptan:AtcoCode" v="9100WYGN"/>
+  </node>
+  <node id="27409154" version="5" timestamp="2012-05-04T15:45:05Z" uid="452299" user="nsmith" changeset="11499094" lat="52.977258" lon="-0.2942593">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Heckington"/>
+    <tag k="naptan:AtcoCode" v="9100HCKNGTN"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="27409523" version="8" timestamp="2012-07-10T19:57:01Z" uid="125259" user="abc26324" changeset="12178532" lat="52.9954612" lon="-0.4103807">
+    <tag k="ref" v="SLR"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Sleaford"/>
+    <tag k="wikipedia" v="Sleaford_railway_station"/>
+    <tag k="nat_ref" v="SLR"/>
+    <tag k="naptan:AtcoCode" v="9100SLEFD"/>
+    <tag k="operator" v="East Midlands Trains"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="27409531" version="6" timestamp="2012-05-04T15:45:06Z" uid="452299" user="nsmith" changeset="11499094" lat="52.9850628" lon="-0.4563737">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Rauceby"/>
+    <tag k="naptan:AtcoCode" v="9100RAUCEBY"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="27410438" version="7" timestamp="2012-05-04T15:40:02Z" uid="452299" user="nsmith" changeset="11499042" lat="52.95212" lon="-0.8554185">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Elton and Orston"/>
+    <tag k="naptan:AtcoCode" v="9100ELTON"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="27431686" version="6" timestamp="2012-05-04T16:14:52Z" uid="452299" user="nsmith" changeset="11499326" lat="52.0306856" lon="-0.1097581">
+    <tag k="addr:postcode" v="SG7 5RT"/>
+    <tag k="ref" v="AWM"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Ashwell &amp; Morden"/>
+    <tag k="is_in" v="Odsey, Cambridgeshire, UK"/>
+    <tag k="naptan:AtcoCode" v="9100ASHWELC"/>
+    <tag k="addr:city" v="Odsey, Baldock"/>
+    <tag k="operator" v="First Capital Connect"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="27437844" version="8" timestamp="2012-09-21T16:15:02Z" uid="51722" user="Chris Parker" changeset="13197643" lat="52.5996557" lon="-1.4153141">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Shenton"/>
+    <tag k="tourism" v="preserved_railway"/>
+  </node>
+  <node id="27437881" version="5" timestamp="2012-12-21T18:07:39Z" uid="705850" user="Cebderby" changeset="14357611" lat="52.6556555" lon="-1.4412283">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Shackerstone"/>
+    <tag k="tourism" v="heritage_railway"/>
+  </node>
+  <node id="27457437" version="7" timestamp="2012-05-15T19:25:05Z" uid="165" user="Richard" changeset="11608099" lat="52.0213016" lon="-0.6319081">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Aspley Guise"/>
+    <tag k="naptan:AtcoCode" v="9100ASPLEYG"/>
+  </node>
+  <node id="27457444" version="6" timestamp="2012-05-15T19:24:56Z" uid="165" user="Richard" changeset="11608099" lat="52.026258" lon="-0.5950857">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Ridgmont"/>
+    <tag k="naptan:AtcoCode" v="9100RIDGMNT"/>
+  </node>
+  <node id="27457645" version="6" timestamp="2012-05-15T19:24:56Z" uid="165" user="Richard" changeset="11608099" lat="52.0694881" lon="-0.5204876">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Stewartby"/>
+    <tag k="naptan:AtcoCode" v="9100STWRTBY"/>
+  </node>
+  <node id="29133811" version="8" timestamp="2012-12-24T12:00:52Z" uid="63121" user="Proud Salopian" changeset="14389306" lat="52.3913941" lon="-2.9120512">
+    <tag k="ref" v="HPT"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Hopton Heath"/>
+    <tag k="naptan:AtcoCode" v="9100HOPTONH"/>
+    <tag k="operator" v="Arriva Trains Wales"/>
+  </node>
+  <node id="29133829" version="8" timestamp="2013-01-01T12:23:10Z" uid="63121" user="Proud Salopian" changeset="14486022" lat="52.4231068" lon="-2.8844446">
+    <tag k="ref" v="BME"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Broome"/>
+    <tag k="naptan:AtcoCode" v="9100BROOME"/>
+    <tag k="operator" v="Arriva Trains Wales"/>
+  </node>
+  <node id="29135899" version="8" timestamp="2012-05-15T19:28:02Z" uid="165" user="Richard" changeset="11608129" lat="52.442492" lon="-2.837673">
+    <tag k="ref" v="CRV"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Craven Arms"/>
+    <tag k="designation" v="Unstaffed"/>
+    <tag k="naptan:AtcoCode" v="9100CRAVENA"/>
+    <tag k="old_name" v="Craven Arms and Stokesay"/>
+    <tag k="operator" v="Arriva Trains Wales"/>
+  </node>
+  <node id="29137169" version="8" timestamp="2012-05-15T19:25:48Z" uid="165" user="Richard" changeset="11608108" lat="52.5373139" lon="-2.8037105">
+    <tag k="ref" v="CTT"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Church Stretton"/>
+    <tag k="designation" v="Unstaffed"/>
+    <tag k="naptan:AtcoCode" v="9100CSTR"/>
+    <tag k="operator" v="Arriva Trains Wales"/>
+  </node>
+  <node id="29283560" version="8" timestamp="2012-05-15T19:16:30Z" uid="165" user="Richard" changeset="11608017" lat="52.584475" lon="-1.984812">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Walsall"/>
+    <tag k="naptan:AtcoCode" v="9100WALSALL"/>
+  </node>
+  <node id="29703800" version="7" timestamp="2012-05-04T15:17:55Z" uid="452299" user="nsmith" changeset="11498854" lat="52.9652195" lon="-1.0782617">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="postal_code" v="NG4 2FD"/>
+    <tag k="name" v="Carlton"/>
+    <tag k="naptan:AtcoCode" v="9100CRTN"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="30226109" version="13" timestamp="2012-05-15T19:14:41Z" uid="165" user="Richard" changeset="11607990" lat="52.560136" lon="0.0909609">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="survey"/>
+    <tag k="name" v="March"/>
+    <tag k="naptan:AtcoCode" v="9100MRCH"/>
+  </node>
+  <node id="30415353" version="4" timestamp="2011-02-27T21:06:09Z" uid="364" user="Edward" changeset="7415484" lat="52.5972308" lon="-0.6307988">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Morcott"/>
+    <tag k="wikipedia" v="http://en.wikipedia.org/wiki/Morcott_railway_station"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="31156056" version="11" timestamp="2012-05-15T19:16:55Z" uid="165" user="Richard" changeset="11608017" lat="52.4497036" lon="-1.8193992">
+    <tag k="uic_ref" v="7000027"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Acocks Green"/>
+    <tag k="naptan:AtcoCode" v="9100ACOCKSG"/>
+  </node>
+  <node id="31554710" version="6" timestamp="2012-07-19T23:44:57Z" uid="5589" user="user_5589" changeset="12351463" lat="52.4035314" lon="-1.8451595">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="survey"/>
+    <tag k="name" v="Shirley"/>
+    <tag k="naptan:AtcoCode" v="9100SHIRLEY"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="31554736" version="5" timestamp="2012-05-04T18:35:05Z" uid="452299" user="nsmith" changeset="11500613" lat="52.1944685" lon="-1.7163475">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Stratford-upon-Avon"/>
+    <tag k="naptan:AtcoCode" v="9100SOAV"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="31554745" version="6" timestamp="2012-08-16T18:01:59Z" uid="5589" user="user_5589" changeset="12753602" lat="52.3918816" lon="-1.8514322">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Whitlocks End"/>
+    <tag k="naptan:AtcoCode" v="9100WHLE"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="31554759" version="4" timestamp="2012-05-04T18:35:05Z" uid="452299" user="nsmith" changeset="11500613" lat="52.2225082" lon="-1.7557416">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Wilmcote"/>
+    <tag k="naptan:AtcoCode" v="9100WILMCOT"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="31554765" version="6" timestamp="2012-07-19T23:44:59Z" uid="5589" user="user_5589" changeset="12351463" lat="52.3800791" lon="-1.8654572">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Wythall"/>
+    <tag k="naptan:AtcoCode" v="9100WYTH"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="31554767" version="8" timestamp="2012-08-16T18:23:09Z" uid="5589" user="user_5589" changeset="12753602" lat="52.3666042" lon="-1.8613816">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Earlswood"/>
+    <tag k="naptan:AtcoCode" v="9100ELWD"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="31554771" version="8" timestamp="2012-08-16T19:35:00Z" uid="5589" user="user_5589" changeset="12754377" lat="52.2914336" lon="-1.783972">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Henley in Arden"/>
+    <tag k="naptan:AtcoCode" v="9100HENLYIA"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="32671931" version="9" timestamp="2012-03-31T07:19:50Z" uid="4951" user="PeterIto" changeset="11162684" lat="52.8310439" lon="-1.1899629">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="East Leake"/>
+    <tag k="wikipedia" v="en:East Leake railway station"/>
+    <tag k="disused" v="yes"/>
+    <tag k="operator" v="Great Central Railway (Nottingham)"/>
+  </node>
+  <node id="32675099" version="6" timestamp="2011-10-09T11:04:16Z" uid="4951" user="PeterIto" changeset="9510755" lat="52.5676801" lon="-0.3913777">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Wansford"/>
+    <tag k="tourism" v="heritage_railway"/>
+  </node>
+  <node id="32675566" version="22" timestamp="2011-10-09T11:13:19Z" uid="4951" user="PeterIto" changeset="9510849" lat="52.5599985" lon="-0.2800581">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Orton Mere"/>
+    <tag k="tourism" v="heritage_railway"/>
+  </node>
+  <node id="33043644" version="6" timestamp="2012-05-26T20:03:41Z" uid="4951" user="PeterIto" changeset="11709878" lat="52.0903014" lon="1.3178807">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Woodbridge"/>
+    <tag k="wikipedia" v="en:Woodbridge railway station"/>
+    <tag k="naptan:AtcoCode" v="9100WODBDGE"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="33224990" version="5" timestamp="2012-05-04T16:14:52Z" uid="452299" user="nsmith" changeset="11499326" lat="52.1193162" lon="0.0567406">
+    <tag k="ref" v="FXN"/>
+    <tag k="source:ref" v="ATOC"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Foxton"/>
+    <tag k="platforms" v="2"/>
+    <tag k="naptan:AtcoCode" v="9100FOXTON"/>
+    <tag k="operator" v="First Capital Connect"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="33341861" version="6" timestamp="2012-05-15T19:25:46Z" uid="165" user="Richard" changeset="11608108" lat="52.2260284" lon="-2.7305883">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Leominster"/>
+    <tag k="naptan:AtcoCode" v="9100LEOMNST"/>
+    <tag k="name:cy" v="Llanllieni"/>
+  </node>
+  <node id="33409298" version="6" timestamp="2012-05-04T16:14:53Z" uid="452299" user="nsmith" changeset="11499326" lat="52.1143453" lon="0.0313311">
+    <tag k="ref" v="STH"/>
+    <tag k="source:ref" v="ATOC"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Shepreth"/>
+    <tag k="naptan:AtcoCode" v="9100SHPRTH"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="33482269" version="6" timestamp="2012-05-15T19:17:40Z" uid="165" user="Richard" changeset="11608021" lat="52.9882137" lon="-1.4859545">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Duffield"/>
+    <tag k="naptan:AtcoCode" v="9100DUFIELD"/>
+  </node>
+  <node id="33719909" version="7" timestamp="2012-10-07T08:31:27Z" uid="4951" user="PeterIto" changeset="13394605" lat="52.1510046" lon="1.3986915">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Wickham Market"/>
+    <tag k="wikipedia" v="en:Wickham Market railway station"/>
+    <tag k="naptan:AtcoCode" v="9100WCKHMMR"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="36150862" version="9" timestamp="2012-05-15T19:14:23Z" uid="165" user="Richard" changeset="11607990" lat="52.777345" lon="1.4040132">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Worstead"/>
+    <tag k="naptan:AtcoCode" v="9100WORSTED"/>
+  </node>
+  <node id="36959293" version="8" timestamp="2012-09-05T22:03:22Z" uid="5589" user="user_5589" changeset="13002749" lat="52.524465" lon="-2.0495079">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="Survey"/>
+    <tag k="name" v="Dudley Port"/>
+    <tag k="wikipedia" v="en:Dudley Port railway station"/>
+    <tag k="naptan:AtcoCode" v="9100DUDLPT"/>
+  </node>
+  <node id="40857759" version="6" timestamp="2012-05-15T19:24:55Z" uid="165" user="Richard" changeset="11608099" lat="52.0181146" lon="-0.6545713">
+    <tag k="ref" v="WOB"/>
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="postal_code" v="MK17 8UD"/>
+    <tag k="name" v="Woburn Sands"/>
+    <tag k="naptan:AtcoCode" v="9100WOBURNS"/>
+  </node>
+  <node id="40859300" version="8" timestamp="2012-05-15T19:25:02Z" uid="165" user="Richard" changeset="11608099" lat="52.0042684" lon="-0.696196">
+    <tag k="ref" v="BWB"/>
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="postal_code" v="MK7 8LA"/>
+    <tag k="name" v="Bow Brickhill"/>
+    <tag k="naptan:AtcoCode" v="9100BOWBRKH"/>
+  </node>
+  <node id="43401074" version="11" timestamp="2012-05-15T19:14:42Z" uid="165" user="Richard" changeset="11607990" lat="52.4978134" lon="0.1778253">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Manea"/>
+    <tag k="naptan:AtcoCode" v="9100MANEA"/>
+  </node>
+  <node id="49174553" version="6" timestamp="2012-05-04T15:17:55Z" uid="452299" user="nsmith" changeset="11498854" lat="52.9833175" lon="-1.041145">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Burton Joyce"/>
+    <tag k="naptan:AtcoCode" v="9100BRTJYC"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="49244979" version="9" timestamp="2012-11-09T21:08:23Z" uid="4951" user="PeterIto" changeset="13814381" lat="52.4538815" lon="0.6244353">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Brandon"/>
+    <tag k="wikipedia" v="en:Brandon railway station"/>
+    <tag k="naptan:AtcoCode" v="9100BNDON"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="58975491" version="7" timestamp="2012-05-15T19:17:02Z" uid="165" user="Richard" changeset="11608021" lat="52.8967915" lon="-1.8567548">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Uttoxeter"/>
+    <tag k="naptan:AtcoCode" v="9100UTOXETR"/>
+    <tag k="operator" v="East Midlands Trains"/>
+  </node>
+  <node id="58978505" version="9" timestamp="2012-05-15T19:17:20Z" uid="165" user="Richard" changeset="11608021" lat="52.9676865" lon="-2.0666098">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="GPS waypoint"/>
+    <tag k="name" v="Blythe Bridge"/>
+    <tag k="wikipedia" v="http://en.wikipedia.org/wiki/Blythe_Bridge_railway_station"/>
+    <tag k="naptan:AtcoCode" v="9100BLYBDGE"/>
+  </node>
+  <node id="58978526" version="8" timestamp="2012-10-15T13:07:18Z" uid="24119" user="Mauls" changeset="13505314" lat="52.990183" lon="-2.1377707">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Longton"/>
+    <tag k="wikipedia" v="http://en.wikipedia.org/wiki/Longton_railway_station"/>
+    <tag k="naptan:AtcoCode" v="9100LNTN"/>
+  </node>
+  <node id="58986839" version="7" timestamp="2012-05-15T19:16:50Z" uid="165" user="Richard" changeset="11608017" lat="52.2772189" lon="-1.6963369">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Claverdon"/>
+    <tag k="naptan:AtcoCode" v="9100CLAVRDN"/>
+  </node>
+  <node id="60976819" version="7" timestamp="2012-05-15T19:17:20Z" uid="165" user="Richard" changeset="11608021" lat="52.8058415" lon="-1.642228">
+    <tag k="level" v="0"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Burton-upon-Trent"/>
+    <tag k="layer" v="2"/>
+    <tag k="naptan:AtcoCode" v="9100BURTNOT"/>
+  </node>
+  <node id="68329597" version="9" timestamp="2012-07-18T01:22:15Z" uid="61942" user="SomeoneElse" changeset="12273617" lat="52.9877177" lon="-0.5352952">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Ancaster"/>
+    <tag k="naptan:AtcoCode" v="9100ANCASTR"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="71948729" version="11" timestamp="2012-11-10T11:47:16Z" uid="4951" user="PeterIto" changeset="13819626" lat="52.6043349" lon="0.3656503">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Downham Market"/>
+    <tag k="wikipedia" v="en:Downham Market railway station"/>
+    <tag k="naptan:AtcoCode" v="9100DOWNHAM"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="76890118" version="6" timestamp="2012-05-15T19:25:00Z" uid="165" user="Richard" changeset="11608099" lat="52.0917895" lon="-0.504152">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Kempston Hardwick"/>
+    <tag k="naptan:AtcoCode" v="9100KMPSTNH"/>
+  </node>
+  <node id="76892789" version="7" timestamp="2012-05-15T19:24:58Z" uid="165" user="Richard" changeset="11608099" lat="52.0542437" lon="-0.532382">
+    <tag k="ref" v="MLB"/>
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Millbrook"/>
+    <tag k="wikipedia" v="http://en.wikipedia.org/wiki/Millbrook_%28Bedfordshire%29_railway_station"/>
+    <tag k="naptan:AtcoCode" v="9100MLBRKB"/>
+  </node>
+  <node id="82605817" version="9" timestamp="2012-06-06T10:46:14Z" uid="84263" user="Robert Whittaker" changeset="11814567" lat="52.9413671" lon="1.2107897">
+    <tag k="ref" v="SHM"/>
+    <tag k="source:ref" v="ATOC"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Sheringham"/>
+    <tag k="owner" v="Network Rail"/>
+    <tag k="operator" v="National Express East Anglia"/>
+  </node>
+  <node id="82605847" version="8" timestamp="2012-05-15T19:14:26Z" uid="165" user="Richard" changeset="11607990" lat="52.9355477" lon="1.2456193">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="West Runton"/>
+    <tag k="naptan:AtcoCode" v="9100WRUNTON"/>
+  </node>
+  <node id="82605869" version="11" timestamp="2012-11-10T10:35:07Z" uid="4951" user="PeterIto" changeset="13818917" lat="52.9300536" lon="1.2916476">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Cromer"/>
+    <tag k="wikipedia" v="en:Cromer railway station"/>
+    <tag k="naptan:AtcoCode" v="9100CMER"/>
+    <tag k="old_name" v="Cromer Beach"/>
+  </node>
+  <node id="86817273" version="11" timestamp="2012-11-09T23:34:28Z" uid="4951" user="PeterIto" changeset="13815650" lat="52.7538268" lon="0.4034547">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="King&apos;s Lynn"/>
+    <tag k="wikipedia" v="en:King&apos;s Lynn railway station"/>
+    <tag k="naptan:AtcoCode" v="9100KLYNN"/>
+    <tag k="operator" v="First Capital Connect"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="98001419" version="11" timestamp="2012-05-15T19:14:25Z" uid="165" user="Richard" changeset="11607990" lat="52.5495645" lon="-0.1180751">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="survey"/>
+    <tag k="name" v="Whittlesea"/>
+    <tag k="naptan:AtcoCode" v="9100WHTLSEA"/>
+    <tag k="note" v="station name really _is_ spelled differently friom the town!"/>
+  </node>
+  <node id="99391472" version="8" timestamp="2012-05-15T19:17:08Z" uid="165" user="Richard" changeset="11608021" lat="52.6392228" lon="-1.844367">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Shenstone"/>
+    <tag k="naptan:AtcoCode" v="9100SHNS"/>
+  </node>
+  <node id="100878319" version="5" timestamp="2012-05-15T19:17:03Z" uid="165" user="Richard" changeset="11608021" lat="52.8642122" lon="-1.6830077">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Tutbury and Hatton"/>
+    <tag k="naptan:AtcoCode" v="9100TUTBURY"/>
+  </node>
+  <node id="104413411" version="3" timestamp="2011-10-09T13:50:21Z" uid="4951" user="PeterIto" changeset="9512405" lat="52.5701865" lon="1.1040817">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Wymondham Abbey"/>
+    <tag k="tourism" v="preserved_railway"/>
+  </node>
+  <node id="104413971" version="4" timestamp="2012-04-08T21:46:53Z" uid="631968" user="jameswameek" changeset="11231285" lat="52.5910194" lon="1.0517989">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Kimberley Park"/>
+    <tag k="tourism" v="preserved_railway"/>
+  </node>
+  <node id="104414001" version="3" timestamp="2012-11-07T21:50:46Z" uid="4951" user="PeterIto" changeset="13790856" lat="52.6106754" lon="1.0245811">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Hardingham"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="104414026" version="5" timestamp="2013-01-05T00:08:09Z" uid="137434" user="Rackellar" changeset="14532687" lat="52.6248266" lon="1.000959">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Thuxton"/>
+    <tag k="tourism" v="preserved_railway"/>
+    <tag k="platforms" v="2"/>
+    <tag k="operator" v="Mid-Norfolk Railway"/>
+  </node>
+  <node id="104414186" version="5" timestamp="2012-04-08T21:53:33Z" uid="631968" user="jameswameek" changeset="11231285" lat="52.6523793" lon="0.9597094">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Yaxham"/>
+    <tag k="tourism" v="preserved_railway"/>
+  </node>
+  <node id="104414236" version="7" timestamp="2012-11-09T23:53:16Z" uid="4951" user="PeterIto" changeset="13815650" lat="52.6788978" lon="0.9476338">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Dereham"/>
+    <tag k="wikipedia" v="en:Dereham railway station"/>
+    <tag k="tourism" v="preserved_railway"/>
+    <tag k="operator" v="Mid-Norfolk Railway"/>
+  </node>
+  <node id="104414345" version="4" timestamp="2011-03-31T20:14:22Z" uid="74897" user="Rowland" changeset="7729622" lat="52.7437031" lon="0.9514943">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="North Elmham"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="105693546" version="7" timestamp="2012-12-24T12:00:52Z" uid="63121" user="Proud Salopian" changeset="14389306" lat="52.3573239" lon="-2.9477874">
+    <tag k="ref" v="BUK"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Bucknell"/>
+    <tag k="naptan:AtcoCode" v="9100BKNELL"/>
+    <tag k="operator" v="Arriva Trains Wales"/>
+  </node>
+  <node id="111757941" version="7" timestamp="2012-10-10T15:01:26Z" uid="893999" user="Cyclbatrob" changeset="13442183" lat="52.6861017" lon="-2.0224109">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Cannock"/>
+    <tag k="wikipedia" v="http://en.wikipedia.org/wiki/Cannock_railway_station"/>
+    <tag k="naptan:AtcoCode" v="9100CNCK"/>
+  </node>
+  <node id="111821889" version="9" timestamp="2012-05-15T19:16:50Z" uid="165" user="Richard" changeset="11608017" lat="52.6184553" lon="-2.0117605">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Bloxwich"/>
+    <tag k="naptan:AtcoCode" v="9100BLOXWCH"/>
+  </node>
+  <node id="111886993" version="5" timestamp="2012-05-15T19:17:39Z" uid="165" user="Richard" changeset="11608021" lat="52.8620893" lon="-1.262749">
+    <tag k="railway" v="station"/>
+    <tag k="postal_code" v="NG11 0EE"/>
+    <tag k="name" v="East Midlands Parkway"/>
+  </node>
+  <node id="111930336" version="9" timestamp="2012-05-04T15:17:56Z" uid="452299" user="nsmith" changeset="11498854" lat="52.9612969" lon="-1.0797517">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="postal_code" v="NG4 2JB"/>
+    <tag k="name" v="Netherfield"/>
+    <tag k="naptan:AtcoCode" v="9100NTHRFLD"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="112271504" version="13" timestamp="2012-11-27T19:16:19Z" uid="207845" user="will_p" changeset="14062962" lat="52.9208469" lon="-1.2074581">
+    <tag k="railway" v="station"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="name" v="Beeston"/>
+    <tag k="layer" v="2"/>
+    <tag k="naptan:AtcoCode" v="9100BESTON"/>
+    <tag k="is_in:county" v="Nottinghamshire"/>
+  </node>
+  <node id="114967426" version="7" timestamp="2012-11-09T21:08:23Z" uid="4951" user="PeterIto" changeset="13814381" lat="52.565347" lon="1.1181109">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Wymondham"/>
+    <tag k="wikipedia" v="en:Wymondham railway station"/>
+    <tag k="naptan:AtcoCode" v="9100WYMNDHM"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="114975239" version="10" timestamp="2012-05-26T05:58:52Z" uid="4951" user="PeterIto" changeset="11703849" lat="52.8168596" lon="1.3845467">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="North Walsham"/>
+    <tag k="wikipedia" v="en:North Walsham railway station"/>
+    <tag k="naptan:AtcoCode" v="9100NWALSHM"/>
+  </node>
+  <node id="115100772" version="9" timestamp="2012-11-09T21:08:23Z" uid="4951" user="PeterIto" changeset="13814381" lat="52.5144266" lon="1.0221815">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Attleborough"/>
+    <tag k="wikipedia" v="en:Attleborough railway station"/>
+    <tag k="naptan:AtcoCode" v="9100ATTLBON"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="115105270" version="7" timestamp="2012-11-09T21:08:23Z" uid="4951" user="PeterIto" changeset="13814381" lat="52.4712674" lon="0.9699833">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Eccles Road"/>
+    <tag k="wikipedia" v="en:Eccles Road railway station"/>
+    <tag k="naptan:AtcoCode" v="9100ECLR"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="115111725" version="6" timestamp="2012-11-09T21:08:24Z" uid="4951" user="PeterIto" changeset="13814381" lat="52.4538451" lon="0.9093163">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Harling Road"/>
+    <tag k="wikipedia" v="en:Harling Road railway station"/>
+    <tag k="naptan:AtcoCode" v="9100HRLNGRD"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="115115613" version="6" timestamp="2012-11-09T21:08:24Z" uid="4951" user="PeterIto" changeset="13814381" lat="52.5351395" lon="1.0863832">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Spooner Row"/>
+    <tag k="wikipedia" v="en:Spooner Row railway station"/>
+    <tag k="naptan:AtcoCode" v="9100SPONRRW"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="152441568" version="6" timestamp="2012-05-04T15:40:02Z" uid="452299" user="nsmith" changeset="11499042" lat="52.9446105" lon="-0.79489">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Bottesford"/>
+    <tag k="naptan:AtcoCode" v="9100BOTESFD"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="154539634" version="9" timestamp="2012-09-14T11:38:55Z" uid="125259" user="abc26324" changeset="13106128" lat="52.975325" lon="-0.1098555">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Hubberts Bridge"/>
+    <tag k="naptan:AtcoCode" v="9100HBRTBDG"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="154544007" version="8" timestamp="2012-05-04T15:45:07Z" uid="452299" user="nsmith" changeset="11499094" lat="52.7889" lon="-0.1570506">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Spalding"/>
+    <tag k="naptan:AtcoCode" v="9100SPALDNG"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="154694570" version="8" timestamp="2012-05-04T15:40:01Z" uid="452299" user="nsmith" changeset="11499042" lat="52.9515971" lon="-0.8980654">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Aslockton"/>
+    <tag k="naptan:AtcoCode" v="9100ASLCKTN"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="154700987" version="7" timestamp="2012-05-04T15:40:01Z" uid="452299" user="nsmith" changeset="11499042" lat="52.9541818" lon="-0.9514413">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Bingham"/>
+    <tag k="naptan:AtcoCode" v="9100BINGHAM"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="158689780" version="7" timestamp="2012-11-15T00:39:01Z" uid="38784" user="Tom Morris" changeset="13878489" lat="52.4888497" lon="-0.6884272">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Corby"/>
+    <tag k="media:commons" v="https://commons.wikimedia.org/wiki/Category:Corby_railway_station"/>
+    <tag k="wikipedia" v="https://en.wikipedia.org/wiki/Corby_railway_station"/>
+    <tag k="naptan:AtcoCode" v="9100CORBY"/>
+    <tag k="operator" v="East Midlands Trains"/>
+  </node>
+  <node id="159540381" version="7" timestamp="2012-05-04T18:29:36Z" uid="452299" user="nsmith" changeset="11500549" lat="52.2866468" lon="-1.5818494">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Warwick"/>
+    <tag k="naptan:AtcoCode" v="9100WARWICK"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="159540384" version="7" timestamp="2012-05-04T18:29:36Z" uid="452299" user="nsmith" changeset="11500549" lat="52.2846594" lon="-1.535812">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Leamington Spa"/>
+    <tag k="naptan:AtcoCode" v="9100LMNGTNS"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="159815439" version="10" timestamp="2012-05-15T19:25:38Z" uid="165" user="Richard" changeset="11608106" lat="52.3468403" lon="-1.9679618">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Alvechurch"/>
+    <tag k="naptan:AtcoCode" v="9100ALVCHRC"/>
+  </node>
+  <node id="181306846" version="8" timestamp="2012-07-16T08:29:55Z" uid="5589" user="user_5589" changeset="12240978" lat="52.4790297" lon="-1.8922626">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="knowledge"/>
+    <tag k="name" v="Birmingham Moor Street"/>
+    <tag k="naptan:AtcoCode" v="9100BHAMMRS"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="181313467" version="9" timestamp="2012-10-07T18:43:33Z" uid="4951" user="PeterIto" changeset="13402777" lat="52.0362514" lon="0.7352232">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Sudbury"/>
+    <tag k="wikipedia" v="en:Sudbury railway station"/>
+    <tag k="naptan:AtcoCode" v="9100SUDBURY"/>
+  </node>
+  <node id="204065608" version="6" timestamp="2012-05-15T19:14:35Z" uid="165" user="Richard" changeset="11607990" lat="52.6755817" lon="1.3913667">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Salhouse"/>
+    <tag k="naptan:AtcoCode" v="9100SALHOUS"/>
+  </node>
+  <node id="204069482" version="10" timestamp="2012-05-15T19:14:48Z" uid="165" user="Richard" changeset="11607990" lat="52.7154999" lon="1.408031">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Hoveton and Wroxham"/>
+    <tag k="naptan:AtcoCode" v="9100WROXHAM"/>
+  </node>
+  <node id="242588253" version="10" timestamp="2012-11-10T11:24:52Z" uid="6871" user="smsm1" changeset="13819416" lat="52.238341" lon="0.4073491">
+    <tag k="ref" v="NMK"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Newmarket"/>
+    <tag k="wikipedia" v="en:Railway stations in Newmarket"/>
+    <tag k="naptan:AtcoCode" v="9100NWMKET"/>
+  </node>
+  <node id="244140351" version="6" timestamp="2012-10-07T16:08:12Z" uid="4951" user="PeterIto" changeset="13400392" lat="52.2499087" lon="0.8086615">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Thurston"/>
+    <tag k="wikipedia" v="en:Thurston railway station"/>
+    <tag k="naptan:AtcoCode" v="9100THUSTON"/>
+  </node>
+  <node id="248923922" version="8" timestamp="2012-05-15T19:14:56Z" uid="165" user="Richard" changeset="11607990" lat="52.866075" lon="1.3493462">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Gunton"/>
+    <tag k="naptan:AtcoCode" v="9100GUNTON"/>
+  </node>
+  <node id="248924981" version="7" timestamp="2012-11-10T10:33:23Z" uid="4951" user="PeterIto" changeset="13818917" lat="52.917866" lon="1.3000196">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Roughton Road"/>
+    <tag k="wikipedia" v="en:Roughton Road railway station"/>
+    <tag k="naptan:AtcoCode" v="9100RGHTNRD"/>
+  </node>
+  <node id="249663867" version="12" timestamp="2012-05-15T19:16:44Z" uid="165" user="Richard" changeset="11608017" lat="52.4895742" lon="-1.9132015">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Jewellery Quarter"/>
+    <tag k="naptan:AtcoCode" v="9100BHAMJEW"/>
+  </node>
+  <node id="251295988" version="14" timestamp="2011-10-09T14:00:47Z" uid="4951" user="PeterIto" changeset="9512541" lat="52.941625" lon="1.2085612">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Sheringham (NNR)"/>
+    <tag k="tourism" v="preserved_railway"/>
+    <tag k="operator" v="North Norfolk Railway"/>
+  </node>
+  <node id="252716939" version="10" timestamp="2012-05-15T19:15:05Z" uid="165" user="Richard" changeset="11607990" lat="52.2536086" lon="0.7134678">
+    <tag k="erected" v="1847"/>
+    <tag k="ref" v="BSE"/>
+    <tag k="source:ref" v="ATOC"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Bury St Edmunds"/>
+    <tag k="wikipedia" v="Bury St Edmunds railway station"/>
+    <tag k="naptan:AtcoCode" v="9100BSTEDMS"/>
+    <tag k="operator" v="National Express East Anglia"/>
+  </node>
+  <node id="252728434" version="7" timestamp="2012-05-15T19:17:01Z" uid="165" user="Richard" changeset="11608021" lat="52.8533008" lon="-1.5641972">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="memory"/>
+    <tag k="name" v="Willington"/>
+    <tag k="layer" v="1"/>
+    <tag k="naptan:AtcoCode" v="9100WLNTNON"/>
+  </node>
+  <node id="252745593" version="11" timestamp="2012-10-07T08:46:26Z" uid="4951" user="PeterIto" changeset="13394743" lat="52.4776907" lon="1.7156737">
+    <tag k="ref" v="OUN"/>
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Oulton Broad North"/>
+    <tag k="wikipedia" v="en:Oulton Broad North railway station"/>
+    <tag k="naptan:AtcoCode" v="9100OULTNBN"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="252746160" version="13" timestamp="2012-10-07T08:42:01Z" uid="4951" user="PeterIto" changeset="13394699" lat="52.4585561" lon="1.5696631">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Beccles"/>
+    <tag k="wikipedia" v="en:Beccles railway station"/>
+    <tag k="naptan:AtcoCode" v="9100BECCLES"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="252753813" version="8" timestamp="2012-10-07T08:49:36Z" uid="4951" user="PeterIto" changeset="13394775" lat="52.4742456" lon="1.7497935">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Lowestoft"/>
+    <tag k="wikipedia" v="en:Lowestoft railway station"/>
+    <tag k="naptan:AtcoCode" v="9100LOWSTFT"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="252754155" version="14" timestamp="2012-10-07T08:37:35Z" uid="4951" user="PeterIto" changeset="13394667" lat="52.2729855" lon="1.5235675">
+    <tag k="ref" v="DSM"/>
+    <tag k="railway" v="station"/>
+    <tag k="source" v="Bing"/>
+    <tag k="name" v="Darsham"/>
+    <tag k="wikipedia" v="en:Darsham railway station"/>
+    <tag k="naptan:AtcoCode" v="9100DARSHAM"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="252767516" version="8" timestamp="2012-05-07T18:45:26Z" uid="207845" user="will_p" changeset="11532197" lat="52.9063912" lon="-1.2312278">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Attenborough"/>
+    <tag k="naptan:AtcoCode" v="9100ATNBRO"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="252774504" version="8" timestamp="2012-05-15T19:17:42Z" uid="165" user="Richard" changeset="11608021" lat="52.9990256" lon="-1.1955133">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="memory"/>
+    <tag k="name" v="Bulwell"/>
+  </node>
+  <node id="252838671" version="4" timestamp="2012-10-06T12:19:21Z" uid="82783" user="Paul The Archivist" changeset="13384205" lat="52.8976023" lon="-1.4722913">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Peartree"/>
+    <tag k="wikipedia" v="en:Peartree railway station"/>
+    <tag k="naptan:AtcoCode" v="9100PEARTRE"/>
+    <tag k="note" v="Only a few services call here, I would not consider it a railway=halt since it has proper platforms and it isn&apos;t a request stop"/>
+  </node>
+  <node id="252860639" version="8" timestamp="2012-05-15T19:25:46Z" uid="165" user="Richard" changeset="11608108" lat="52.371071" lon="-2.7159583">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Ludlow"/>
+    <tag k="wikipedia" v="http://en.wikipedia.org/wiki/Ludlow_railway_station"/>
+    <tag k="naptan:AtcoCode" v="9100LUDLOW"/>
+    <tag k="name:cy" v="Llwydlo"/>
+  </node>
+  <node id="252862890" version="7" timestamp="2012-05-15T19:17:00Z" uid="165" user="Richard" changeset="11608021" lat="52.6105937" lon="-1.6796125">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Wilnecote"/>
+    <tag k="wikipedia" v="http://en.wikipedia.org/wiki/Wilnecote_(Staffordshire)_railway_station"/>
+    <tag k="naptan:AtcoCode" v="9100WILNECT"/>
+    <tag k="operator" v="London Midland"/>
+    <tag k="note" v="Operator refers to the station not the train services"/>
+  </node>
+  <node id="253006518" version="9" timestamp="2012-11-10T10:49:39Z" uid="4951" user="PeterIto" changeset="13819105" lat="52.6346702" lon="1.5441149">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Acle"/>
+    <tag k="wikipedia" v="en:Acle railway station"/>
+    <tag k="naptan:AtcoCode" v="9100ACLE"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="253006650" version="11" timestamp="2012-11-10T10:51:39Z" uid="4951" user="PeterIto" changeset="13819105" lat="52.5977284" lon="1.4700769">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Buckenham"/>
+    <tag k="wikipedia" v="en:Buckenham railway station"/>
+    <tag k="naptan:AtcoCode" v="9100BUCKNHM"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="253007096" version="6" timestamp="2012-11-10T10:55:25Z" uid="4951" user="PeterIto" changeset="13819105" lat="52.529004" lon="1.6230504">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Haddiscoe"/>
+    <tag k="wikipedia" v="en:Haddiscoe railway station"/>
+    <tag k="naptan:AtcoCode" v="9100HADISCO"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="253007463" version="5" timestamp="2012-11-10T10:49:40Z" uid="4951" user="PeterIto" changeset="13819105" lat="52.621997" lon="1.4895181">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Lingwood"/>
+    <tag k="wikipedia" v="en:Lingwood railway station"/>
+    <tag k="naptan:AtcoCode" v="9100LGWOOD"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="253232872" version="4" timestamp="2012-04-23T04:40:39Z" uid="735" user="blackadder" changeset="11391090" lat="52.5201324" lon="-1.6794943">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Whitacre Junction"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="253891968" version="8" timestamp="2012-05-15T19:17:15Z" uid="165" user="Richard" changeset="11608021" lat="52.6569845" lon="-2.0207642">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Landywood"/>
+    <tag k="naptan:AtcoCode" v="9100LNDYW"/>
+  </node>
+  <node id="253892919" version="5" timestamp="2012-05-15T19:17:18Z" uid="165" user="Richard" changeset="11608021" lat="52.5165172" lon="-1.7077741">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Coleshill Parkway"/>
+    <tag k="naptan:AtcoCode" v="9100COLESHL"/>
+  </node>
+  <node id="255946656" version="6" timestamp="2012-05-15T19:25:31Z" uid="165" user="Richard" changeset="11608106" lat="52.4510426" lon="-1.9367799">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="knowledge"/>
+    <tag k="name" v="University"/>
+    <tag k="naptan:AtcoCode" v="9100UNVRSYB"/>
+  </node>
+  <node id="256390022" version="11" timestamp="2012-11-10T10:51:39Z" uid="4951" user="PeterIto" changeset="13819105" lat="52.5644564" lon="1.5593485">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Reedham"/>
+    <tag k="wikipedia" v="en:Reedham railway station (Norfolk)"/>
+    <tag k="naptan:AtcoCode" v="9100RDHAMN"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="256390111" version="6" timestamp="2012-05-04T15:40:03Z" uid="452299" user="nsmith" changeset="11499042" lat="52.9487854" lon="-1.0370383">
+    <tag k="ref" v="RDF"/>
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Radcliffe-on-Trent"/>
+    <tag k="naptan:AtcoCode" v="9100RADNOT"/>
+    <tag k="operator" v="East Midlands Trains"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="256513417" version="6" timestamp="2012-05-15T19:25:24Z" uid="165" user="Richard" changeset="11608105" lat="52.6865425" lon="-1.8000384">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Lichfield Trent Valley - High Level"/>
+    <tag k="layer" v="1"/>
+    <tag k="naptan:AtcoCode" v="9100LCHTTVH"/>
+  </node>
+  <node id="256709377" version="9" timestamp="2012-10-07T08:40:06Z" uid="4951" user="PeterIto" changeset="13394681" lat="52.395424" lon="1.5437375">
+    <tag k="ref" v="BRP"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Brampton (Suffolk)"/>
+    <tag k="wikipedia" v="en:Brampton (Suffolk) railway station"/>
+    <tag k="naptan:AtcoCode" v="9100BRAMPTN"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="256875918" version="11" timestamp="2012-10-07T16:06:33Z" uid="4951" user="PeterIto" changeset="13400364" lat="52.2381057" lon="0.912654">
+    <tag k="ref" v="ESW"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Elmswell"/>
+    <tag k="wikipedia" v="en:Elmswell railway station"/>
+    <tag k="naptan:AtcoCode" v="9100ELMSWEL"/>
+  </node>
+  <node id="256876989" version="5" timestamp="2012-05-26T20:03:40Z" uid="4951" user="PeterIto" changeset="11709878" lat="52.1044246" lon="1.3385563">
+    <tag k="ref" v="MES"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Melton"/>
+    <tag k="wikipedia" v="en:Melton railway station"/>
+    <tag k="naptan:AtcoCode" v="9100MELTON"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="258501327" version="3" timestamp="2012-06-17T19:07:46Z" uid="24119" user="Mauls" changeset="11929329" lat="52.0192173" lon="0.217517">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Audley End Miniature Railway"/>
+  </node>
+  <node id="259529072" version="4" timestamp="2012-10-06T04:10:46Z" uid="4951" user="PeterIto" changeset="13380485" lat="52.6761014" lon="-1.9470107">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Chasewater Heaths"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="263373156" version="7" timestamp="2012-11-10T10:55:25Z" uid="4951" user="PeterIto" changeset="13819105" lat="52.5101526" lon="1.6521889">
+    <tag k="ref" v="SYT"/>
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Somerleyton"/>
+    <tag k="wikipedia" v="en:Somerleyton railway station"/>
+    <tag k="naptan:AtcoCode" v="9100SMRLYTN"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="263373872" version="9" timestamp="2012-10-07T08:44:15Z" uid="4951" user="PeterIto" changeset="13394721" lat="52.4695969" lon="1.7076474">
+    <tag k="ref" v="OUS"/>
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Oulton Broad South"/>
+    <tag k="wikipedia" v="en:Oulton Broad South railway station"/>
+    <tag k="naptan:AtcoCode" v="9100OULTNBS"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="283317149" version="10" timestamp="2012-11-10T10:51:39Z" uid="4951" user="PeterIto" changeset="13819105" lat="52.5787164" lon="1.5136558">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Cantley"/>
+    <tag k="wikipedia" v="en:Cantley railway station"/>
+    <tag k="naptan:AtcoCode" v="9100CNTLEY"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="285052147" version="9" timestamp="2012-05-15T19:17:03Z" uid="165" user="Richard" changeset="11608021" lat="52.3952321" lon="-1.5968808">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="survey"/>
+    <tag k="name" v="Tile Hill"/>
+    <tag k="naptan:AtcoCode" v="9100TILEH"/>
+    <tag k="note" v="NPE says the station is to the East of the bridge. It isn&apos;t."/>
+  </node>
+  <node id="290235759" version="8" timestamp="2012-09-03T22:24:36Z" uid="5589" user="user_5589" changeset="12974664" lat="52.5085507" lon="-2.0116554">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Sandwell and Dudley"/>
+    <tag k="wikipedia" v="en:Sandwell and Dudley railway station"/>
+    <tag k="naptan:AtcoCode" v="9100SNDWDUD"/>
+  </node>
+  <node id="290304808" version="4" timestamp="2011-10-09T13:59:10Z" uid="4951" user="PeterIto" changeset="9512509" lat="52.9145444" lon="1.1134155">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Holt"/>
+    <tag k="tourism" v="preserved_railway"/>
+  </node>
+  <node id="295718082" version="5" timestamp="2012-05-15T19:16:31Z" uid="165" user="Richard" changeset="11608017" lat="52.5055248" lon="-1.964545">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="The Hawthorns"/>
+    <tag k="naptan:AtcoCode" v="9100HNDSHWT"/>
+  </node>
+  <node id="303713225" version="8" timestamp="2012-03-31T11:47:38Z" uid="4951" user="PeterIto" changeset="11165188" lat="52.3059159" lon="-0.637213">
+    <tag k="end_date" v="1 November 1924"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Ditchford"/>
+    <tag k="wikipedia" v="en:Ditchford railway station"/>
+    <tag k="disused" v="yes"/>
+    <tag k="start_date" v="2 June 1845"/>
+  </node>
+  <node id="303713489" version="4" timestamp="2012-10-02T20:03:10Z" uid="4951" user="PeterIto" changeset="13339536" lat="52.2943816" lon="-0.5982393">
+    <tag k="railway" v="station"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="303715916" version="2" timestamp="2009-12-11T18:42:50Z" uid="21502" user="Kevin Steinhardt" changeset="3351146" lat="52.4673665" lon="-0.1549989">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="fixme" v="Needs a name"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="303739359" version="7" timestamp="2012-03-31T02:22:28Z" uid="4951" user="PeterIto" changeset="11161692" lat="52.9471474" lon="0.8683605">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="The Midden"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="303739366" version="12" timestamp="2012-11-09T23:19:11Z" uid="4951" user="PeterIto" changeset="13815650" lat="52.9363888" lon="0.8777375">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Warham"/>
+    <tag k="wikipedia" v="en:Warham railway station"/>
+    <tag k="tourism" v="preserved_railway"/>
+  </node>
+  <node id="303739374" version="12" timestamp="2012-11-09T23:19:11Z" uid="4951" user="PeterIto" changeset="13815650" lat="52.918577" lon="0.8790464">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Wighton Halt"/>
+    <tag k="wikipedia" v="en:Wighton Halt railway station"/>
+    <tag k="tourism" v="preserved_railway"/>
+    <tag k="old_name" v="Seton&apos;s Halt"/>
+  </node>
+  <node id="303784386" version="11" timestamp="2012-10-25T19:51:02Z" uid="4951" user="PeterIto" changeset="13631408" lat="52.7167341" lon="1.4084896">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Wroxham BVR"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="303784406" version="11" timestamp="2012-05-15T19:15:01Z" uid="165" user="Richard" changeset="11607990" lat="52.7343735" lon="1.360316">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Coltishall"/>
+    <tag k="tourism" v="preserved_railway"/>
+  </node>
+  <node id="303784424" version="8" timestamp="2012-05-15T19:15:04Z" uid="165" user="Richard" changeset="11607990" lat="52.7573511" lon="1.3076461">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Buxton"/>
+    <tag k="tourism" v="preserved_railway"/>
+  </node>
+  <node id="303784431" version="7" timestamp="2011-10-09T13:56:44Z" uid="4951" user="PeterIto" changeset="9512483" lat="52.7668989" lon="1.2914769">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Brampton"/>
+    <tag k="tourism" v="preserved_railway"/>
+  </node>
+  <node id="303784446" version="7" timestamp="2012-11-09T23:19:11Z" uid="4951" user="PeterIto" changeset="13815650" lat="52.791077" lon="1.2547077">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Aylsham"/>
+    <tag k="wikipedia" v="en:Aylsham South railway station"/>
+    <tag k="tourism" v="preserved_railway"/>
+  </node>
+  <node id="303812818" version="7" timestamp="2012-11-09T23:21:10Z" uid="4951" user="PeterIto" changeset="13815650" lat="52.949216" lon="0.8653779">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Wells-on-Sea"/>
+    <tag k="wikipedia" v="en:Wells railway station, Norfolk"/>
+    <tag k="tourism" v="narrow_gauge_railway"/>
+  </node>
+  <node id="303813218" version="4" timestamp="2010-04-26T15:26:40Z" uid="17427" user="dysteleologist" changeset="4532827" lat="52.9249161" lon="0.8782525">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Wighton Halt"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="303813401" version="4" timestamp="2011-10-09T14:01:28Z" uid="4951" user="PeterIto" changeset="9512550" lat="52.8961239" lon="0.8719869">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Walsingham"/>
+    <tag k="tourism" v="preserved_railway"/>
+  </node>
+  <node id="304363347" version="5" timestamp="2011-10-09T11:11:59Z" uid="4951" user="PeterIto" changeset="9510826" lat="52.5588625" lon="-0.3026073">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Ferry Meadows"/>
+    <tag k="tourism" v="heritage_railway"/>
+  </node>
+  <node id="304364349" version="7" timestamp="2011-10-09T11:16:44Z" uid="4951" user="PeterIto" changeset="9510866" lat="52.5677412" lon="-0.2478956">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Peterborough Nene Valley"/>
+    <tag k="tourism" v="heritage_railway"/>
+  </node>
+  <node id="310588000" version="8" timestamp="2012-10-07T08:33:04Z" uid="4951" user="PeterIto" changeset="13394622" lat="52.2150265" lon="1.490108">
+    <tag k="crs" v="sax"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Saxmundham"/>
+    <tag k="wikipedia" v="en:Saxmundham railway station"/>
+    <tag k="naptan:AtcoCode" v="9100SXMNDHM"/>
+  </node>
+  <node id="313003356" version="8" timestamp="2012-07-21T22:17:10Z" uid="5589" user="user_5589" changeset="12421517" lat="52.3969882" lon="-1.980665">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Longbridge"/>
+    <tag k="naptan:AtcoCode" v="9100LONB"/>
+  </node>
+  <node id="316772003" version="5" timestamp="2012-03-18T15:33:19Z" uid="213451" user="Richard Phillips" changeset="11020190" lat="52.037325" lon="-1.9949862">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="disused" v="yes"/>
+    <tag k="old_name" v="Ashton under Hill"/>
+  </node>
+  <node id="318130543" version="8" timestamp="2012-04-10T19:02:10Z" uid="186212" user="srbrook" changeset="11256477" lat="52.3841428" lon="-2.2397698">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="contributor vist to line"/>
+    <tag k="name" v="Kidderminster Town"/>
+    <tag k="FIXME" v="Exact location needss a GPS confirmation"/>
+    <tag k="operator" v="Severn Valley Railway"/>
+  </node>
+  <node id="324257221" version="7" timestamp="2012-06-06T10:47:28Z" uid="84075" user="kevjs1982" changeset="11814570" lat="52.884494" lon="-1.1474008">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Ruddington Fields"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="324650068" version="8" timestamp="2012-10-25T08:09:32Z" uid="12671" user="sladen" changeset="13624503" lat="52.9470647" lon="-1.1467126">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="Local Knowledge"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="postal_code" v="NG2 3AQ"/>
+    <tag k="alt_name" v="Nottingham Midland"/>
+    <tag k="name" v="Nottingham"/>
+    <tag k="naptan:AtcoCode" v="9100NTNG"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="335714346" version="8" timestamp="2012-08-01T23:54:42Z" uid="290680" user="wheelmap_visitor" changeset="12579814" lat="52.3062008" lon="-1.9455365">
+    <tag k="railway" v="station"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="name" v="Redditch"/>
+    <tag k="naptan:AtcoCode" v="9100RDIT"/>
+  </node>
+  <node id="339159684" version="25" timestamp="2012-08-05T17:49:01Z" uid="91657" user="Pink Duck" changeset="12623887" lat="52.6730757" lon="0.3832208">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Watlington"/>
+    <tag k="naptan:AtcoCode" v="9100WATLGTN"/>
+    <tag k="old_name" v="Magdalen Road"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="339871670" version="7" timestamp="2012-05-15T19:16:51Z" uid="165" user="Richard" changeset="11608017" lat="52.6253209" lon="-2.0175625">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Bloxwich North"/>
+    <tag k="naptan:AtcoCode" v="9100BLOXN"/>
+  </node>
+  <node id="340171091" version="5" timestamp="2012-10-03T01:20:24Z" uid="4951" user="PeterIto" changeset="13341980" lat="52.0480742" lon="-0.7222357">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Willen Lake"/>
+    <tag k="usage" v="tourism"/>
+    <tag k="type" v="miniature"/>
+  </node>
+  <node id="345591774" version="5" timestamp="2012-11-24T22:05:38Z" uid="413286" user="Chris Northwood" changeset="14020326" lat="52.2314498" lon="-0.2472447">
+    <tag k="railway" v="station"/>
+    <tag k="alt_name" v="Saint Neots"/>
+    <tag k="name" v="St Neots"/>
+    <tag k="ref:tiploc" v="STNEOTS"/>
+    <tag k="naptan:AtcoCode" v="9100STNEOTS"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="356938431" version="6" timestamp="2011-10-09T10:47:17Z" uid="4951" user="PeterIto" changeset="9510604" lat="52.6250349" lon="-1.4208731">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Market Bosworth"/>
+    <tag k="tourism" v="preserved_railway"/>
+    <tag k="closed" v="13 April 1931"/>
+    <tag k="opened" v="19 March 2011"/>
+  </node>
+  <node id="367068467" version="2" timestamp="2010-12-30T12:30:15Z" uid="71337" user="quantumstate" changeset="6808533" lat="52.2840118" lon="-0.6344072">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Irchester (disused)"/>
+  </node>
+  <node id="367981086" version="7" timestamp="2012-10-06T04:13:47Z" uid="4951" user="PeterIto" changeset="13380497" lat="52.6628692" lon="-2.4816089">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Horsehay &amp; Dawley"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="370501465" version="6" timestamp="2012-05-04T15:43:39Z" uid="401102" user="ian29" changeset="11499079" lat="52.7014593" lon="-2.517267">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Wellington"/>
+    <tag k="naptan:AtcoCode" v="9100WELNGTN"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="370501511" version="4" timestamp="2012-05-04T15:43:35Z" uid="401102" user="ian29" changeset="11499079" lat="52.6931147" lon="-2.4501364">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Oakengates"/>
+    <tag k="naptan:AtcoCode" v="9100OAKNGTS"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="385347619" version="5" timestamp="2012-08-10T13:25:05Z" uid="74570" user="Richard Mann" changeset="12679405" lat="52.4226399" lon="-1.3534799">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="description" v="Closed 16.9.1957"/>
+    <tag k="name" v="Brinklow"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="390580729" version="4" timestamp="2012-09-16T11:21:46Z" uid="111849" user="GBee" changeset="13129114" lat="52.931292" lon="-1.5042187">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Markeaton"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="392821344" version="4" timestamp="2012-10-06T04:02:07Z" uid="4951" user="PeterIto" changeset="13380441" lat="52.561549" lon="-1.69911">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Harvesters"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="410913160" version="6" timestamp="2012-06-04T21:42:17Z" uid="103253" user="gormur" changeset="11801273" lat="52.065703" lon="-0.8044024">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Wolverton"/>
+    <tag k="platforms" v="4"/>
+    <tag k="naptan:AtcoCode" v="9100WLVR"/>
+  </node>
+  <node id="420349835" version="5" timestamp="2012-12-10T17:29:43Z" uid="735" user="blackadder" changeset="14228719" lat="52.5642176" lon="-1.6970986">
+    <tag k="railway" v="station"/>
+    <tag k="status" v="disused"/>
+    <tag k="name" v="Picnic Green"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="420359010" version="4" timestamp="2012-12-10T17:29:43Z" uid="735" user="blackadder" changeset="14228719" lat="52.5645054" lon="-1.6978369">
+    <tag k="railway" v="station"/>
+    <tag k="status" v="disused"/>
+    <tag k="name" v="Picnic Junc."/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="430047742" version="3" timestamp="2012-04-16T17:27:04Z" uid="606741" user="tomrobin29" changeset="11324527" lat="52.0788125" lon="-2.3157411">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Malvern Wells"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="430047769" version="2" timestamp="2012-04-16T17:33:35Z" uid="606741" user="tomrobin29" changeset="11324527" lat="52.0588668" lon="-2.2172375">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Upton upon Severn"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="430047782" version="2" timestamp="2012-03-08T22:30:25Z" uid="186212" user="srbrook" changeset="10914623" lat="52.0372784" lon="-2.1880014">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Ripple"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="430047797" version="4" timestamp="2011-01-28T22:21:04Z" uid="186212" user="srbrook" changeset="7117821" lat="52.0953453" lon="-2.3234738">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Malvern Wells"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="430047996" version="1" timestamp="2009-06-28T06:47:39Z" uid="24614" user="Alex McKee" changeset="1658851" lat="52.0186522" lon="-2.0291175">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Beckford"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="430047999" version="4" timestamp="2010-09-15T20:12:16Z" uid="213451" user="Richard Phillips" changeset="5790503" lat="52.0617459" lon="-1.9747398">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="disused" v="yes"/>
+    <tag k="old_name" v="Hinton"/>
+  </node>
+  <node id="430048000" version="4" timestamp="2010-07-24T09:08:05Z" uid="213451" user="Richard Phillips" changeset="5302139" lat="52.0849824" lon="-1.9615765">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="disused" v="yes"/>
+    <tag k="old_name" v="Bengeworth"/>
+  </node>
+  <node id="431241690" version="7" timestamp="2012-12-27T18:33:40Z" uid="10983" user="Guy" changeset="14429145" lat="52.6674664" lon="-1.1334178">
+    <tag k="addr:postcode" v="LE4 3BR"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Leicester North"/>
+    <tag k="usage" v="tourism"/>
+    <tag k="addr:housename" v="Leicester North Railway Station"/>
+    <tag k="addr:city" v="Leicester"/>
+  </node>
+  <node id="441709094" version="3" timestamp="2011-10-09T14:00:06Z" uid="4951" user="PeterIto" changeset="9512525" lat="52.9328991" lon="1.150403">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Weybourne"/>
+    <tag k="tourism" v="preserved_railway"/>
+  </node>
+  <node id="441709136" version="6" timestamp="2012-06-13T22:43:22Z" uid="99476" user="spod" changeset="11890296" lat="52.9585593" lon="0.8499284">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="The Harbour Station"/>
+    <tag k="tourism" v="narrow_gauge_railway"/>
+    <tag k="destination" v="Pinewoods &amp; Beach"/>
+  </node>
+  <node id="456315214" version="4" timestamp="2012-01-05T21:42:59Z" uid="376459" user="Bobby Dazzler" changeset="10305978" lat="52.2937092" lon="-0.9239273">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Pitsford and Brampton"/>
+    <tag k="tourism" v="preserved_railway"/>
+  </node>
+  <node id="483375401" version="3" timestamp="2011-11-30T05:38:14Z" uid="4951" user="PeterIto" changeset="9995663" lat="52.9856474" lon="-1.8775471">
+    <tag k="railway" v="station"/>
+    <tag k="tourism" v="attraction"/>
+  </node>
+  <node id="503897837" version="5" timestamp="2012-10-06T04:10:46Z" uid="4951" user="PeterIto" changeset="13380485" lat="52.6748556" lon="-1.9568567">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Norton Lakeside Halt"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="503897847" version="5" timestamp="2012-10-06T04:10:46Z" uid="4951" user="PeterIto" changeset="13380485" lat="52.6626684" lon="-1.9532199">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Brownhills West"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="564905621" version="1" timestamp="2009-11-15T17:54:18Z" uid="21502" user="Kevin Steinhardt" changeset="3124777" lat="52.5032415" lon="0.0823372">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="573566827" version="5" timestamp="2012-12-11T20:51:36Z" uid="1113055" user="pjrobertson" changeset="14242890" lat="52.194144" lon="0.1375027">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Cambridge"/>
+    <tag k="platforms" v="8"/>
+    <tag k="naptan:AtcoCode" v="9100CAMBDGE"/>
+    <tag k="name:cy" v="Caergrawnt"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="669895240" version="1" timestamp="2010-03-19T19:08:17Z" uid="24614" user="Alex McKee" changeset="4173099" lat="52.3453474" lon="-2.4975539">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="OS 1:25k"/>
+    <tag k="name" v="Neen Sollars"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="674935458" version="8" timestamp="2012-05-15T19:24:58Z" uid="165" user="Richard" changeset="11608099" lat="52.0416258" lon="-0.5589158">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Lidlington"/>
+    <tag k="naptan:AtcoCode" v="9100LDLNGTN"/>
+  </node>
+  <node id="707539316" version="5" timestamp="2012-06-13T22:43:23Z" uid="99476" user="spod" changeset="11890296" lat="52.9685689" lon="0.8495298">
+    <tag k="railway" v="station"/>
+    <tag k="tourism" v="narrow_gauge_railway"/>
+  </node>
+  <node id="713513809" version="5" timestamp="2012-11-15T00:19:35Z" uid="38784" user="Tom Morris" changeset="13878417" lat="52.5823619" lon="-1.1342253">
+    <tag k="railway" v="station"/>
+    <tag k="postal_code" v="LE18 4XU"/>
+    <tag k="name" v="South Wigston"/>
+    <tag k="media:commons" v="https://commons.wikimedia.org/wiki/Category:South_Wigston_railway_station"/>
+    <tag k="wikipedia" v="https://en.wikipedia.org/wiki/South_Wigston_railway_station"/>
+    <tag k="naptan:AtcoCode" v="9100WGSTS"/>
+  </node>
+  <node id="756917128" version="3" timestamp="2012-10-03T01:16:41Z" uid="4951" user="PeterIto" changeset="13341970" lat="52.534135" lon="-2.4176261">
+    <tag k="railway" v="station"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="763170872" version="2" timestamp="2012-10-06T04:02:07Z" uid="4951" user="PeterIto" changeset="13380441" lat="52.5657521" lon="-1.6932444">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Far Leys Station"/>
+    <tag k="usage" v="tourism"/>
+    <tag k="notes" v="Officially opened 15 May 2010"/>
+  </node>
+  <node id="814684302" version="2" timestamp="2012-10-06T04:13:47Z" uid="4951" user="PeterIto" changeset="13380497" lat="52.6626371" lon="-2.4826125">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Spring Village"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="814684332" version="2" timestamp="2012-10-06T04:13:48Z" uid="4951" user="PeterIto" changeset="13380497" lat="52.6704427" lon="-2.4799674">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Lawley Common"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="889286774" version="4" timestamp="2012-12-04T21:20:02Z" uid="4951" user="PeterIto" changeset="14156791" lat="52.7565874" lon="-0.7998774">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="Bing"/>
+    <tag k="usage" v="tourism"/>
+    <tag k="FIXME" v="name"/>
+  </node>
+  <node id="919019947" version="2" timestamp="2012-10-03T01:16:40Z" uid="4951" user="PeterIto" changeset="13341970" lat="52.5343691" lon="-2.418216">
+    <tag k="railway" v="station"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="956934566" version="2" timestamp="2010-10-20T17:28:56Z" uid="332733" user="DazrahT" changeset="6117643" lat="52.5583584" lon="-1.4445692">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Higham-on-the Hill"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="957028957" version="2" timestamp="2011-11-10T20:59:24Z" uid="5589" user="user_5589" changeset="9792162" lat="52.3813144" lon="-1.4007419">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Brandon and Wolston"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="957083795" version="3" timestamp="2012-03-14T11:13:35Z" uid="154484" user="PeterP" changeset="10976400" lat="52.4989573" lon="-1.5963624">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Arley and Fillongley"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="957092473" version="2" timestamp="2011-02-01T19:42:42Z" uid="735" user="blackadder" changeset="7158322" lat="52.5685241" lon="-1.8275656">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Sutton Park"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="957097846" version="2" timestamp="2012-01-22T22:58:09Z" uid="735" user="blackadder" changeset="10470995" lat="52.5853415" lon="-1.8732619">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Streetly"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="957099466" version="3" timestamp="2013-01-10T23:32:52Z" uid="572855" user="paulbirkenshaw" changeset="14604691" lat="52.5380815" lon="-1.802128">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Penns"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="957220046" version="1" timestamp="2010-10-19T17:35:36Z" uid="332733" user="DazrahT" changeset="6101531" lat="52.5586296" lon="-1.3077738">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Elmesthorpe"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="957273789" version="2" timestamp="2011-02-22T21:35:56Z" uid="243152" user="ChinnorBoy" changeset="7367766" lat="52.6668037" lon="-2.024426">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Great Wyrley and Cheslyn Hay"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="958531663" version="2" timestamp="2011-06-13T12:30:23Z" uid="105474" user="Miked29" changeset="8425658" lat="52.7407291" lon="-1.8693285">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Armitage"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="983118611" version="2" timestamp="2010-11-09T08:59:50Z" uid="152879" user="Njal" changeset="6326124" lat="52.1936914" lon="-2.3834032">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Knightwick Station"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="983118913" version="2" timestamp="2010-11-09T09:00:43Z" uid="152879" user="Njal" changeset="6326124" lat="52.1833252" lon="-2.4097532">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Suckley Station"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="989995015" version="2" timestamp="2011-10-09T13:59:39Z" uid="4951" user="PeterIto" changeset="9512516" lat="52.9320129" lon="1.1378879">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Kelling Heath Station"/>
+    <tag k="tourism" v="preserved_railway"/>
+  </node>
+  <node id="1015760022" version="4" timestamp="2012-11-24T21:54:44Z" uid="413286" user="Chris Northwood" changeset="14019618" lat="52.0849737" lon="-0.2608191">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Biggleswade"/>
+    <tag k="ref:tiploc" v="BIGLSWD"/>
+    <tag k="naptan:AtcoCode" v="9100BIGLSWD"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="1070248820" version="2" timestamp="2011-10-09T11:12:00Z" uid="4951" user="PeterIto" changeset="9510826" lat="52.5633496" lon="-0.3074732">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Ferry Meadows Miniature Railway"/>
+    <tag k="tourism" v="miniature_railway"/>
+  </node>
+  <node id="1070251104" version="4" timestamp="2011-10-09T11:11:59Z" uid="4951" user="PeterIto" changeset="9510826" lat="52.5667473" lon="-0.3125963">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Ferry Meadows Miniature Railway"/>
+    <tag k="tourism" v="miniature_railway"/>
+  </node>
+  <node id="1080583465" version="5" timestamp="2012-05-05T16:53:24Z" uid="12992" user="trigpoint" changeset="11509934" lat="52.8560484" lon="-2.7182292">
+    <tag k="ref" v="WEM"/>
+    <tag k="railway" v="station"/>
+    <tag k="source" v="Local Knowledge"/>
+    <tag k="name" v="Wem"/>
+    <tag k="wikipedia" v="http://en.wikipedia.org/wiki/Wem_railway_station"/>
+    <tag k="platforms" v="2"/>
+    <tag k="naptan:AtcoCode" v="9100WEMM"/>
+    <tag k="operator" v="Arriva Trains Wales"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="1080583473" version="4" timestamp="2012-05-15T19:25:43Z" uid="165" user="Richard" changeset="11608108" lat="52.9683013" lon="-2.6714804">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Whitchurch"/>
+    <tag k="naptan:AtcoCode" v="9100WCHR"/>
+  </node>
+  <node id="1080583496" version="5" timestamp="2012-05-15T19:25:43Z" uid="165" user="Richard" changeset="11608108" lat="52.8994459" lon="-2.6894499">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Prees"/>
+    <tag k="wikipedia" v="http://en.wikipedia.org/wiki/Prees_railway_station"/>
+    <tag k="naptan:AtcoCode" v="9100PREES"/>
+  </node>
+  <node id="1080701323" version="4" timestamp="2012-05-04T17:18:31Z" uid="452299" user="nsmith" changeset="11499841" lat="52.3470056" lon="1.5057682">
+    <tag k="ref" v="HAS"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Halesworth"/>
+    <tag k="wikipedia" v="http://en.wikipedia.org/wiki/Halesworth_railway_station"/>
+    <tag k="naptan:AtcoCode" v="9100HALSWTH"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="1082623252" version="2" timestamp="2012-05-04T16:56:13Z" uid="452299" user="nsmith" changeset="11499667" lat="52.0257911" lon="-0.2662719">
+    <tag k="source:name" v="local knowledge"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Arlesey"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="1126273414" version="4" timestamp="2012-05-15T19:17:05Z" uid="165" user="Richard" changeset="11608021" lat="52.9084696" lon="-2.1554718">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Stone"/>
+  </node>
+  <node id="1126538595" version="3" timestamp="2012-05-15T19:17:22Z" uid="165" user="Richard" changeset="11608021" lat="52.9428133" lon="-2.1682728">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Barlaston"/>
+    <tag k="disused" v="yes"/>
+    <tag k="note" v="Served by buses only"/>
+  </node>
+  <node id="1126538975" version="2" timestamp="2011-03-11T04:42:32Z" uid="364" user="Edward" changeset="7520301" lat="52.9513546" lon="-2.1708886">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Wedgwood"/>
+    <tag k="disused" v="yes"/>
+    <tag k="naptan:AtcoCode" v="9100WEDGWD"/>
+  </node>
+  <node id="1130257036" version="2" timestamp="2012-10-06T04:10:46Z" uid="4951" user="PeterIto" changeset="13380485" lat="52.6726252" lon="-1.942884">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Chasetown (Church Street)"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="1171852021" version="2" timestamp="2012-02-25T13:02:00Z" uid="4951" user="PeterIto" changeset="10787397" lat="52.9374537" lon="-1.5036343">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="Wikipedia"/>
+    <tag k="name" v="Mundy Halt"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="1171884409" version="1" timestamp="2011-02-25T09:56:54Z" uid="166295" user="jpb1301" changeset="7388954" lat="52.6020428" lon="-1.9201241">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="Wikipedia"/>
+    <tag k="name" v="Aldridge"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="1172981509" version="1" timestamp="2011-02-25T21:20:19Z" uid="414377" user="VikingM" changeset="7394558" lat="52.4479209" lon="-2.134155">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Stourbridge Junction"/>
+  </node>
+  <node id="1196910055" version="2" timestamp="2012-05-04T18:35:04Z" uid="452299" user="nsmith" changeset="11500613" lat="52.4637496" lon="-1.8595192">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Small Heath"/>
+    <tag k="naptan:AtcoCode" v="9100SMLHTH"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="1198383150" version="3" timestamp="2012-05-15T19:16:37Z" uid="165" user="Richard" changeset="11608017" lat="52.4384106" lon="-1.8044867">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Olton"/>
+    <tag k="naptan:AtcoCode" v="9100OLTON"/>
+  </node>
+  <node id="1251370290" version="1" timestamp="2011-04-19T16:59:43Z" uid="17021" user="ShakespeareFan00" changeset="7908362" lat="52.3839758" lon="-2.2401282">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Coalyard Minature Railway"/>
+  </node>
+  <node id="1256889374" version="2" timestamp="2012-10-03T01:17:58Z" uid="4951" user="PeterIto" changeset="13341972" lat="52.1834767" lon="-1.9035605">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="Bing"/>
+    <tag k="website" v="http://www.avonvale.me.uk/"/>
+    <tag k="name" v="Avonvale MES"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="1256968398" version="2" timestamp="2012-10-03T01:19:32Z" uid="4951" user="PeterIto" changeset="13341979" lat="52.1173008" lon="-1.9371565">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="Bing"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="1257810494" version="3" timestamp="2012-10-07T18:24:57Z" uid="4951" user="PeterIto" changeset="13402492" lat="52.2503532" lon="1.1173766">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Mid Suffolk Light Railway"/>
+    <tag k="wikipedia" v="en:Brockford and Wetheringsett railway station"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="1263605406" version="6" timestamp="2012-10-09T12:00:53Z" uid="4951" user="PeterIto" changeset="13426113" lat="52.0505275" lon="1.1449601">
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Ipswich"/>
+    <tag k="wikipedia" v="en:Ipswich railway station"/>
+    <tag k="naptan:AtocCode" v="9100IPSWICH"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="1341354201" version="6" timestamp="2012-05-15T19:17:43Z" uid="165" user="Richard" changeset="11608021" lat="52.749263" lon="-1.145036">
+    <tag k="railway" v="station"/>
+    <tag k="wheelchair" v="no"/>
+    <tag k="name" v="Barrow-upon-Soar"/>
+  </node>
+  <node id="1372782830" version="2" timestamp="2011-10-09T10:52:12Z" uid="4951" user="PeterIto" changeset="9510647" lat="52.3847488" lon="-0.7075986">
+    <tag k="railway" v="station"/>
+    <tag k="tourism" v="narrow_gauge_railway"/>
+  </node>
+  <node id="1444707434" version="2" timestamp="2012-10-03T01:16:40Z" uid="4951" user="PeterIto" changeset="13341970" lat="52.501646" lon="-2.3999895">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Eardington Halt"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="1444707436" version="2" timestamp="2012-10-03T01:16:41Z" uid="4951" user="PeterIto" changeset="13341970" lat="52.3686428" lon="-2.287227">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Devil&apos;s Spittlefield Halt"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="1469880625" version="3" timestamp="2012-12-10T18:15:32Z" uid="563773" user="mrpacmanmap" changeset="14229201" lat="52.5164126" lon="-2.0241128">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Albion Train Station (Un-Operational) "/>
+  </node>
+  <node id="1476474488" version="2" timestamp="2012-10-06T08:23:32Z" uid="4951" user="PeterIto" changeset="13381852" lat="52.9756762" lon="-2.0645022">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Caverswall Road Station"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="1476474490" version="2" timestamp="2012-10-06T08:23:33Z" uid="4951" user="PeterIto" changeset="13381852" lat="52.9984068" lon="-2.0370002">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Foxfield Colliery"/>
+    <tag k="usage" v="tourism"/>
+  </node>
+  <node id="1491529522" version="2" timestamp="2012-05-04T15:43:37Z" uid="401102" user="ian29" changeset="11499079" lat="52.502029" lon="-1.9806589">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Smethwick Galton Bridge"/>
+    <tag k="wikipedia" v="en:Smethwick Galton Bridge railway station"/>
+    <tag k="layer" v="1"/>
+    <tag k="naptan:AtcoCode" v="9100GALTILL"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="1491529527" version="4" timestamp="2012-09-03T22:24:38Z" uid="5589" user="user_5589" changeset="12974664" lat="52.5020391" lon="-1.9803142">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Smethwick Galton Bridge"/>
+    <tag k="wikipedia" v="en:Smethwick Galton Bridge railway station"/>
+    <tag k="layer" v="1"/>
+    <tag k="naptan:AtcoCode" v="9100GALTILL"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="1505708115" version="3" timestamp="2013-01-10T23:05:10Z" uid="572855" user="paulbirkenshaw" changeset="14604691" lat="52.5653121" lon="-1.820094">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Sutton Town"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="1540738772" version="1" timestamp="2011-12-11T13:29:27Z" uid="4951" user="PeterIto" changeset="10089635" lat="52.5378359" lon="-0.682308">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Gretton station"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="1540751818" version="4" timestamp="2011-12-11T13:52:52Z" uid="4951" user="PeterIto" changeset="10089805" lat="52.6277295" lon="-0.6972618">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Manton"/>
+    <tag k="fixme" v="check exact location"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="1540757583" version="1" timestamp="2011-12-11T14:00:34Z" uid="4951" user="PeterIto" changeset="10089875" lat="52.6254019" lon="-0.5470383">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Ketton and Collyweston"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="1540762326" version="2" timestamp="2012-02-22T22:39:30Z" uid="103253" user="gormur" changeset="10764168" lat="52.6466452" lon="-0.416837">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Uffington and Barnack"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="1540763106" version="1" timestamp="2011-12-11T14:06:13Z" uid="4951" user="PeterIto" changeset="10089927" lat="52.6452532" lon="-0.3858857">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Bainton Gate"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="1540765907" version="1" timestamp="2011-12-11T14:10:23Z" uid="4951" user="PeterIto" changeset="10089961" lat="52.6359455" lon="-0.3303129">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Helpston"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="1547973377" version="1" timestamp="2011-12-15T21:15:50Z" uid="563773" user="mrpacmanmap" changeset="10127227" lat="52.8915875" lon="-2.1248755">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Little Aston"/>
+  </node>
+  <node id="1587569090" version="3" timestamp="2012-05-15T19:17:34Z" uid="165" user="Richard" changeset="11608021" lat="52.8849595" lon="-1.2872899">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Long Eaton"/>
+    <tag k="naptan:AtcoCode" v="9100LNGEATN"/>
+  </node>
+  <node id="1593444411" version="2" timestamp="2012-05-04T17:11:59Z" uid="452299" user="nsmith" changeset="11499788" lat="52.4624577" lon="0.31638">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Littleport"/>
+    <tag k="naptan:AtcoCode" v="9100LTLPORT"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="1600568150" version="3" timestamp="2012-05-15T19:25:42Z" uid="165" user="Richard" changeset="11608108" lat="52.8091533" lon="-2.7361234">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="Local Knowledge"/>
+    <tag k="name" v="Yorton"/>
+    <tag k="platforms" v="2"/>
+    <tag k="operator" v="Arriva Trains Wales"/>
+  </node>
+  <node id="1619056270" version="3" timestamp="2012-11-08T09:55:39Z" uid="4951" user="PeterIto" changeset="13795402" lat="52.1492324" lon="0.1399743">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Shelford"/>
+    <tag k="wikipedia" v="en:Shelford railway station"/>
+    <tag k="naptan:AtcoCode" v="9100SHELFD"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="1635229925" version="4" timestamp="2012-08-31T18:52:27Z" uid="5589" user="user_5589" changeset="12934359" lat="52.4792979" lon="-1.4675009">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Bedworth"/>
+    <tag k="naptan:AtcoCode" v="9100BEDWRTH"/>
+  </node>
+  <node id="1643159565" version="2" timestamp="2012-11-24T21:54:44Z" uid="413286" user="Chris Northwood" changeset="14019618" lat="52.1245768" lon="-0.2809434">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Sandy"/>
+    <tag k="ref:tiploc" v="SNDY"/>
+    <tag k="naptan:AtcoCode" v="9100SNDY"/>
+  </node>
+  <node id="1643159583" version="2" timestamp="2012-11-24T21:54:43Z" uid="413286" user="Chris Northwood" changeset="14019618" lat="52.124622" lon="-0.2808531">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Sandy"/>
+    <tag k="ref:tiploc" v="SNDY"/>
+    <tag k="naptan:AtcoCode" v="9100SNDY"/>
+  </node>
+  <node id="1643159587" version="4" timestamp="2012-11-24T21:54:43Z" uid="413286" user="Chris Northwood" changeset="14019618" lat="52.1246435" lon="-0.2808026">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Sandy"/>
+    <tag k="ref:tiploc" v="SNDY"/>
+    <tag k="naptan:AtcoCode" v="9100SNDY"/>
+  </node>
+  <node id="1643643045" version="1" timestamp="2012-02-22T22:38:06Z" uid="103253" user="gormur" changeset="10764168" lat="52.6452708" lon="-0.3858679">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Bainton Gate"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="1643643050" version="1" timestamp="2012-02-22T22:38:06Z" uid="103253" user="gormur" changeset="10764168" lat="52.6358778" lon="-0.3303955">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Helpston"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="1643643051" version="1" timestamp="2012-02-22T22:38:07Z" uid="103253" user="gormur" changeset="10764168" lat="52.6359646" lon="-0.3303036">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Helpston"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="1643643056" version="1" timestamp="2012-02-22T22:38:07Z" uid="103253" user="gormur" changeset="10764168" lat="52.6466841" lon="-0.416833">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Uffington and Barnack"/>
+    <tag k="disused" v="yes"/>
+  </node>
+  <node id="1645059627" version="4" timestamp="2012-11-24T22:05:38Z" uid="413286" user="Chris Northwood" changeset="14020326" lat="52.3287389" lon="-0.1924222">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Huntingdon"/>
+    <tag k="ref:tiploc" v="HNTNGDN"/>
+    <tag k="naptan:AtcoCode" v="9100HNTNGDN"/>
+  </node>
+  <node id="1645059628" version="3" timestamp="2012-11-24T22:05:38Z" uid="413286" user="Chris Northwood" changeset="14020326" lat="52.3287628" lon="-0.1926053">
+    <tag k="railway" v="station"/>
+    <tag k="source" v="NPE"/>
+    <tag k="name" v="Huntingdon"/>
+    <tag k="ref:tiploc" v="HNTNGDN"/>
+    <tag k="naptan:AtcoCode" v="9100HNTNGDN"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="1649211470" version="3" timestamp="2012-05-15T19:16:38Z" uid="165" user="Richard" changeset="11608017" lat="52.6722719" lon="-0.734343">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Oakham"/>
+    <tag k="naptan:AtcoCode" v="9100OAKHAM"/>
+  </node>
+  <node id="1664775328" version="1" timestamp="2012-03-07T19:09:22Z" uid="484697" user="Ben Coulson" changeset="10902828" lat="52.2811597" lon="-0.9213934">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Boughton"/>
+    <tag k="tourism" v="preserved_railway"/>
+  </node>
+  <node id="1699243929" version="3" timestamp="2012-10-07T08:07:46Z" uid="4951" user="PeterIto" changeset="13394365" lat="52.6117978" lon="1.7206937">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Great Yarmouth"/>
+    <tag k="wikipedia" v="en:Great Yarmouth railway station"/>
+    <tag k="naptan:AtcoCode" v="9100YARMTH"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="1711412439" version="1" timestamp="2012-04-11T12:59:05Z" uid="182056" user="Paul Day" changeset="11264757" lat="52.9915619" lon="-1.8920461">
+    <tag k="railway" v="station"/>
+    <tag k="tourism" v="sttraction"/>
+  </node>
+  <node id="1766559047" version="1" timestamp="2012-05-26T19:39:08Z" uid="49031" user="craigloftus" changeset="11709652" lat="52.0209695" lon="-1.2809887">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="King&apos;s Sutton"/>
+    <tag k="naptan:AtcoCode" v="9100KINSSTN"/>
+    <tag k="operator" v="Chiltern Railways"/>
+  </node>
+  <node id="1784808209" version="2" timestamp="2012-06-12T17:16:25Z" uid="685592" user="Toruk" changeset="11876591" lat="52.7538412" lon="0.403192">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="King’s Lynn Train Station"/>
+    <tag k="platforms" v="2"/>
+  </node>
+  <node id="1905746949" version="1" timestamp="2012-09-08T16:23:20Z" uid="178626" user="Rovastar" changeset="13035294" lat="52.7388773" lon="-1.5433171">
+    <tag k="railway" v="station"/>
+  </node>
+  <node id="2002372369" version="2" timestamp="2012-12-29T19:46:17Z" uid="473119" user="Poggs" changeset="14455516" lat="52.0044625" lon="0.2071095">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Audley End"/>
+    <tag k="wikipedia" v="en:Audley End railway station"/>
+    <tag k="ref:tiploc" v="AUDLEYE"/>
+    <tag k="ref:crs" v="AUD"/>
+    <tag k="naptan:AtcoCode" v="9100AUDLEYE"/>
+    <tag k="ref:stanox" v="47321"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+  <node id="2121970624" version="1" timestamp="2013-01-21T00:42:28Z" uid="103253" user="gormur" changeset="14728490" lat="52.3907026" lon="0.2664618">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Ely"/>
+    <tag k="wikipedia" v="en:Ely station"/>
+    <tag k="naptan:AtcoCode" v="9100ELYY"/>
+    <tag k="network" v="National Rail"/>
+  </node>
+</osm>

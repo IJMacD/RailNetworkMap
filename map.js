@@ -95,6 +95,20 @@ $(function(){
         objStore.put(tiles,"tiles");
         transaction.oncomplete = function(event){$('#status').text("Saved at "+(new Date()));};
     });
+    $('#import-btn').click(function(){
+        $.get('node[railway=station][bbox=-3,50,2,52].xml',function(data){
+            var nds = $(data).find('node'),
+                symbol = "BHF";
+            nds.each(function(i,item){
+                var _item = $(item),
+                    lat = _item.attr('lat'),
+                    lon = _item.attr('lon'),
+                    p = snapLonLatToGrid(lon,lat);
+                setImage(p.lon.toFixed(2),p.lat.toFixed(3), symbol);
+            });
+            render();
+        });
+    });
     $.get('kent.json',function(data){currentOutline = data;render();});
     $.get('images.json',function(data){
         var key = $('#key'),
